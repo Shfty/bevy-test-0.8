@@ -1,0 +1,8 @@
+/assets/blender/addon
+/assets/blender/*.blend1
+/assets/blender/*.json
+/assets/meshes/*.gltf
+/target
+
+*.dot
+*.svg

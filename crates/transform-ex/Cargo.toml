@@ -1,0 +1,10 @@
+[package]
+name = "transform-ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitmask = "0.5.0"
+bevy = "0.7"
+
+result-system = {path = "../result-system"}

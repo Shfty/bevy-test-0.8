@@ -1,0 +1,9 @@
+[package]
+name = "ecs-ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.7"
+struct-derive = { path = "../struct-derive" }
+serde = { version = "1.0.137", features = ["derive"] }

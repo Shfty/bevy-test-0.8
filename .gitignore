@@ -1,0 +1,7 @@
+target/
+assets/
+
+Cargo.lock
+*.dot
+*.svg
+

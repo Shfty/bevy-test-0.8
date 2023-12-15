@@ -1,0 +1,17 @@
+[package]
+name = "forces"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["rapier"]
+rapier = ["bevy_rapier3d"]
+
+[dependencies]
+bevy = "0.7"
+
+ecs-ex = { path = "../ecs-ex" }
+transform-ex = { path = "../transform-ex" }
+struct-derive = { path = "../struct-derive" }
+
+bevy_rapier3d = { version = "0.14.1", optional = true }

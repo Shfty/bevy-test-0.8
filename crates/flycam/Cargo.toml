@@ -1,0 +1,10 @@
+[package]
+name = "flycam"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.7"
+
+transform-ex = { path = "../transform-ex" }
+result-system = { path = "../result-system" }

@@ -1,0 +1,1645 @@
+[   0.003][v][cplayer] mpv 0.34.1-dirty Copyright © 2000-2021 mpv/MPlayer/mplayer2 projects
+[   0.003][v][cplayer]  built on UNKNOWN
+[   0.003][v][cplayer] FFmpeg library versions:
+[   0.003][v][cplayer]    libavutil       57.17.100 (runtime 57.28.100)
+[   0.003][v][cplayer]    libavcodec      59.18.100 (runtime 59.37.100)
+[   0.003][v][cplayer]    libavformat     59.16.100 (runtime 59.27.100)
+[   0.003][v][cplayer]    libswscale      6.4.100 (runtime 6.7.100)
+[   0.003][v][cplayer]    libavfilter     8.24.100 (runtime 8.44.100)
+[   0.003][v][cplayer]    libswresample   4.3.100 (runtime 4.7.100)
+[   0.003][v][cplayer] FFmpeg version: n5.1.2
+[   0.003][v][cplayer] 
+[   0.003][v][cplayer] Configuration: /bin/waf configure --prefix=/usr --confdir=/etc/mpv --enable-cdda --enable-dvb --enable-dvdnav --enable-libarchive --enable-libmpv-shared --disable-build-date --disable-caca
+[   0.003][v][cplayer] List of enabled features: alsa asm cdda cplayer cplugins cuda-hwaccel cuda-interop debug-build drm dvbin dvdnav egl egl-drm egl-helpers egl-x11 ffmpeg ffmpeg-aviocontext-bytes-read ffnvcodec gbm gbm.h gl gl-wayland glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg lcms2 libarchive libass libavdevice libbluray libdl libm libmpv-shared libplacebo librt linux-fstatfs linux-input-event-codes lua luajit memfd_create optimize plain-gl posix posix-or-mingw pthreads pulse rubberband shaderc shaderc-shared stdatomic uchardet vaapi vaapi-drm vaapi-egl vaapi-vulkan vaapi-wayland vaapi-x-egl vaapi-x11 vdpau vector vt.h vulkan wayland wayland-protocols x11 xv zimg zlib
+[   0.003][d][osc] Loading lua script @osc.lua...
+[   0.003][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.003][d][stats] Loading lua script @stats.lua...
+[   0.003][d][console] Loading lua script @console.lua...
+[   0.003][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.003][d][osc] loading mp.defaults
+[   0.003][d][global] config path: 'scripts' -> '/home/josh/.config/mpv/scripts'
+[   0.003][d][global] config path: 'scripts' -/-> '/home/josh/.mpv/scripts'
+[   0.003][d][global] config path: 'scripts' -/-> '/etc/mpv/scripts'
+[   0.003][d][playlistmanager] Loading lua script /home/josh/.config/mpv/scripts/playlistmanager.lua...
+[   0.003][d][console] loading mp.defaults
+[   0.003][d][stats] loading mp.defaults
+[   0.003][d][sponsorblock_shared] Loading lua script /home/josh/.config/mpv/scripts/sponsorblock_shared/main.lua...
+[   0.003][d][ytdl_hook] loading mp.defaults
+[   0.003][d][sponsorblock] Loading lua script /home/josh/.config/mpv/scripts/sponsorblock.lua...
+[   0.003][v][cplayer] Waiting for scripts...
+[   0.003][d][auto_profiles] loading mp.defaults
+[   0.003][d][playlistmanager] loading mp.defaults
+[   0.003][d][sponsorblock] loading mp.defaults
+[   0.003][d][sponsorblock_shared] loading mp.defaults
+[   0.004][d][osc] loading @osc.lua
+[   0.004][d][console] loading @console.lua
+[   0.004][d][playlistmanager] loading file /home/josh/.config/mpv/scripts/playlistmanager.lua
+[   0.004][d][sponsorblock] loading file /home/josh/.config/mpv/scripts/sponsorblock.lua
+[   0.004][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.004][d][stats] loading @stats.lua
+[   0.004][d][auto_profiles] loading @auto_profiles.lua
+[   0.004][d][sponsorblock_shared] loading file /home/josh/.config/mpv/scripts/sponsorblock_shared/main.lua
+[   0.004][d][console] reading options for console 
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/home/josh/.config/mpv/script-opts/console.conf'
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/home/josh/.mpv/script-opts/console.conf'
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/etc/mpv/script-opts/console.conf'
+[   0.004][d][console] script-opts/console.conf not found. 
+[   0.004][d][sponsorblock] reading options for sponsorblock 
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/home/josh/.config/mpv/lua-settings/console.conf'
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/home/josh/.mpv/lua-settings/console.conf'
+[   0.004][d][global] config path: 'script-opts/sponsorblock.conf' -/-> '/home/josh/.config/mpv/script-opts/sponsorblock.conf'
+[   0.004][d][global] config path: 'script-opts/sponsorblock.conf' -/-> '/home/josh/.mpv/script-opts/sponsorblock.conf'
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/etc/mpv/lua-settings/console.conf'
+[   0.004][d][console] lua-settings/console.conf not found. 
+[   0.004][d][global] config path: 'script-opts/sponsorblock.conf' -/-> '/etc/mpv/script-opts/sponsorblock.conf'
+[   0.004][d][sponsorblock] script-opts/sponsorblock.conf not found. 
+[   0.004][d][global] config path: 'lua-settings/sponsorblock.conf' -/-> '/home/josh/.config/mpv/lua-settings/sponsorblock.conf'
+[   0.004][d][global] config path: 'lua-settings/sponsorblock.conf' -/-> '/home/josh/.mpv/lua-settings/sponsorblock.conf'
+[   0.004][d][global] config path: 'lua-settings/sponsorblock.conf' -/-> '/etc/mpv/lua-settings/sponsorblock.conf'
+[   0.004][d][sponsorblock] lua-settings/sponsorblock.conf not found. 
+[   0.004][d][ytdl_hook] reading options for ytdl_hook 
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/josh/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/josh/.mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][global] config path: 'scripts' -> '/home/josh/.config/mpv/scripts'
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/etc/mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][ytdl_hook] script-opts/ytdl_hook.conf not found. 
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/josh/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/josh/.mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/etc/mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][ytdl_hook] lua-settings/ytdl_hook.conf not found. 
+[   0.004][d][auto_profiles] Exiting...
+[   0.004][d][global] config path: 'fonts' -/-> '/home/josh/.config/mpv/fonts'
+[   0.004][d][global] config path: 'fonts' -/-> '/home/josh/.mpv/fonts'
+[   0.004][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.004][d][osd/libass] ASS library version: 0x1600000 (runtime 0x1700000)
+[   0.004][v][osd/libass] libass API version: 0x1700000
+[   0.004][v][osd/libass] libass source: commit: 0.17.0-0-gbef4b43ef1882b77f789f611d9cd24271ccdd65b-dirty
+[   0.004][d][playlistmanager] reading options for playlistmanager 
+[   0.004][d][global] config path: 'script-opts/playlistmanager.conf' -/-> '/home/josh/.config/mpv/script-opts/playlistmanager.conf'
+[   0.004][d][global] config path: 'script-opts/playlistmanager.conf' -/-> '/home/josh/.mpv/script-opts/playlistmanager.conf'
+[   0.004][d][global] config path: 'script-opts/playlistmanager.conf' -/-> '/etc/mpv/script-opts/playlistmanager.conf'
+[   0.004][d][playlistmanager] script-opts/playlistmanager.conf not found. 
+[   0.004][d][global] config path: 'lua-settings/playlistmanager.conf' -/-> '/home/josh/.config/mpv/lua-settings/playlistmanager.conf'
+[   0.004][d][global] config path: 'lua-settings/playlistmanager.conf' -/-> '/home/josh/.mpv/lua-settings/playlistmanager.conf'
+[   0.004][d][global] config path: 'lua-settings/playlistmanager.conf' -/-> '/etc/mpv/lua-settings/playlistmanager.conf'
+[   0.004][d][playlistmanager] lua-settings/playlistmanager.conf not found. 
+[   0.004][v][osd/libass] Shaper: FriBidi 1.0.12 (SIMPLE) HarfBuzz-ng 5.3.1 (COMPLEX)
+[   0.004][d][global] config path: 'subfont.ttf' -/-> '/home/josh/.config/mpv/subfont.ttf'
+[   0.004][d][global] config path: 'subfont.ttf' -/-> '/home/josh/.mpv/subfont.ttf'
+[   0.004][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.004][d][global] config path: 'fonts.conf' -/-> '/home/josh/.config/mpv/fonts.conf'
+[   0.004][d][global] config path: 'fonts.conf' -/-> '/home/josh/.mpv/fonts.conf'
+[   0.004][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.004][v][osd/libass] Setting up fonts...
+[   0.005][d][stats] reading options for stats 
+[   0.005][d][global] config path: 'script-opts/stats.conf' -/-> '/home/josh/.config/mpv/script-opts/stats.conf'
+[   0.005][d][global] config path: 'script-opts/stats.conf' -/-> '/home/josh/.mpv/script-opts/stats.conf'
+[   0.005][d][global] config path: 'script-opts/stats.conf' -/-> '/etc/mpv/script-opts/stats.conf'
+[   0.005][d][stats] script-opts/stats.conf not found. 
+[   0.005][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/josh/.config/mpv/lua-settings/stats.conf'
+[   0.005][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/josh/.mpv/lua-settings/stats.conf'
+[   0.005][d][global] config path: 'lua-settings/stats.conf' -/-> '/etc/mpv/lua-settings/stats.conf'
+[   0.005][d][stats] lua-settings/stats.conf not found. 
+[   0.005][d][osc] reading options for osc 
+[   0.005][d][global] config path: 'script-opts/osc.conf' -/-> '/home/josh/.config/mpv/script-opts/osc.conf'
+[   0.005][d][global] config path: 'script-opts/osc.conf' -/-> '/home/josh/.mpv/script-opts/osc.conf'
+[   0.005][d][global] config path: 'script-opts/osc.conf' -/-> '/etc/mpv/script-opts/osc.conf'
+[   0.005][d][osc] script-opts/osc.conf not found. 
+[   0.005][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/josh/.config/mpv/lua-settings/osc.conf'
+[   0.005][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/josh/.mpv/lua-settings/osc.conf'
+[   0.005][d][global] config path: 'lua-settings/osc.conf' -/-> '/etc/mpv/lua-settings/osc.conf'
+[   0.005][d][osc] lua-settings/osc.conf not found. 
+[   0.007][v][osd/libass] Using font provider fontconfig
+[   0.007][v][osd/libass] Done.
+[   0.007][d][cplayer] Run command: define-section, flags=64, args=[name="input_sponsorblock", contents="g script-binding sponsorblock/set_segment\nG script-binding sponsorblock/submit_segment\nh script-binding sponsorblock/upvote_segment\nH script-binding sponsorblock/downvote_segment\n", flags="default"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_sponsorblock", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_sponsorblock", contents="", flags="force"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_sponsorblock", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][v][playlistmanager] updating options 
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input_playlistmanager", contents="CTRL+r script-binding playlistmanager/reverseplaylist\nCTRL+s script-binding playlistmanager/saveplaylist\nSHIFT+ENTER script-binding playlistmanager/showplaylist\n", flags="default"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding osc/__keybinding1\nmouse_leave script-binding osc/__keybinding2\n", flags="force"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_playlistmanager", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding osc/__keybinding3\nmouse_leave script-binding osc/__keybinding4\n", flags="force"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_playlistmanager", contents="", flags="force"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_playlistmanager", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding osc/__keybinding5\nshift+mbtn_left script-binding osc/__keybinding6\nmbtn_right script-binding osc/__keybinding7\nmbtn_mid script-binding osc/__keybinding8\nwheel_up script-binding osc/__keybinding9\nwheel_down script-binding osc/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding osc/__keybinding11\n", flags="force"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-visibility=auto"]
+[   0.008][v][cplayer] Set property: shared-script-properties -> 1
+[   0.008][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.008][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.008][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.008][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.008][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.008][v][cplayer] Set property: shared-script-properties -> 1
+[   0.008][v][cplayer] Done loading scripts.
+[   0.008][d][global] config path: 'watch_later' -> '/home/josh/.config/mpv/watch_later'
+[   0.008][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.008][v][ytdl_hook] ytdl:// hook 
+[   0.008][v][ytdl_hook] not a ytdl:// url 
+[   0.008][v][ffmpeg] Opening https://www.youtube.com/watch?v=Mnfwx1PyOKI
+[   0.008][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.008][v][cplayer] Set property: shared-script-properties -> 1
+[   0.008][d][osc] osc_init 
+[   0.009][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.009][v][cplayer] Set property: shared-script-properties -> 1
+[   0.009][d][global] config path: 'fonts' -/-> '/home/josh/.config/mpv/fonts'
+[   0.009][d][global] config path: 'fonts' -/-> '/home/josh/.mpv/fonts'
+[   0.009][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.009][d][osd/libass] ASS library version: 0x1600000 (runtime 0x1700000)
+[   0.009][v][osd/libass] libass API version: 0x1700000
+[   0.009][v][osd/libass] libass source: commit: 0.17.0-0-gbef4b43ef1882b77f789f611d9cd24271ccdd65b-dirty
+[   0.009][v][osd/libass] Shaper: FriBidi 1.0.12 (SIMPLE) HarfBuzz-ng 5.3.1 (COMPLEX)
+[   0.009][d][global] config path: 'subfont.ttf' -/-> '/home/josh/.config/mpv/subfont.ttf'
+[   0.009][d][global] config path: 'subfont.ttf' -/-> '/home/josh/.mpv/subfont.ttf'
+[   0.009][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.009][d][global] config path: 'fonts.conf' -/-> '/home/josh/.config/mpv/fonts.conf'
+[   0.009][d][global] config path: 'fonts.conf' -/-> '/home/josh/.mpv/fonts.conf'
+[   0.009][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.009][v][osd/libass] Setting up fonts...
+[   0.009][d][ffmpeg] tcp: Starting connection attempt to 2a00:1450:4009:817::200e port 443
+[   0.011][v][osd/libass] Using font provider fontconfig
+[   0.011][v][osd/libass] Done.
+[   0.011][d][cplayer] Run command: define-section, flags=64, args=[name="input_osc", contents="", flags="default"]
+[   0.011][d][cplayer] Run command: enable-section, flags=64, args=[name="input_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.011][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_osc", contents="", flags="force"]
+[   0.011][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.018][d][ffmpeg] tcp: Successfully connected to 2a00:1450:4009:817::200e port 443
+[   0.105][d][ffmpeg] resize stream to 131072 bytes, drop 0 bytes
+[   0.105][v][ffmpeg] Mime-type: 'text/html; charset=utf-8'
+[   0.105][d][ffmpeg] Stream opened successfully.
+[   0.105][v][demux] Trying demuxers for level=normal.
+[   0.105][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.105][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.105][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.105][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.105][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.105][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.105][d][demux] Trying demuxer: libarchive (force-level: normal)
+[   0.108][d][demux] Trying demuxer: lavf (force-level: normal)
+[   0.147][d][ffmpeg] resize stream to 262144 bytes, drop 0 bytes
+[   0.196][d][ffmpeg] resize stream to 524288 bytes, drop 0 bytes
+[   0.489][d][ffmpeg] resize stream to 1048576 bytes, drop 0 bytes
+[   0.514][d][ffmpeg] resize stream to 2097152 bytes, drop 0 bytes
+[   0.528][v][lavf] No format found, try lowering probescore or forcing the format.
+[   0.528][d][demux] Trying demuxer: mf (force-level: normal)
+[   0.528][d][demux] Trying demuxer: playlist (force-level: normal)
+[   0.528][d][demux] Trying demuxer: null (force-level: normal)
+[   0.528][v][demux] Trying demuxers for level=unsafe.
+[   0.528][d][demux] Trying demuxer: disc (force-level: unsafe)
+[   0.528][d][demux] Trying demuxer: edl (force-level: unsafe)
+[   0.528][d][demux] Trying demuxer: cue (force-level: unsafe)
+[   0.528][d][demux] Trying demuxer: rawaudio (force-level: unsafe)
+[   0.528][d][demux] Trying demuxer: rawvideo (force-level: unsafe)
+[   0.528][d][demux] Trying demuxer: mkv (force-level: unsafe)
+[   0.528][d][demux] Trying demuxer: libarchive (force-level: unsafe)
+[   0.528][d][demux] Trying demuxer: lavf (force-level: unsafe)
+[   0.549][d][ffmpeg] resize stream to 1048576 bytes, drop 0 bytes
+[   0.560][d][ffmpeg] resize stream to 2097152 bytes, drop 0 bytes
+[   0.572][v][lavf] No format found, try lowering probescore or forcing the format.
+[   0.572][d][demux] Trying demuxer: mf (force-level: unsafe)
+[   0.572][d][demux] Trying demuxer: playlist (force-level: unsafe)
+[   0.572][d][demux] Trying demuxer: null (force-level: unsafe)
+[   0.572][d][ffmpeg] AVIOContext: Statistics: 625868 bytes read, 0 seeks
+[   0.572][v][cplayer] Opening failed or was aborted: https://www.youtube.com/watch?v=Mnfwx1PyOKI
+[   0.572][v][cplayer] Running hook: ytdl_hook/on_load_fail
+[   0.572][v][ytdl_hook] full hook 
+[   0.572][d][global] config path: '/usr/bin/yt-dlp' -> '/usr/bin/yt-dlp'
+[   0.572][v][ytdl_hook] Found youtube-dl at: /usr/bin/yt-dlp 
+[   0.572][d][ytdl_hook] Running: /usr/bin/yt-dlp --no-warnings -J --flat-playlist --sub-format ass/srt/best --format bestvideo+bestaudio/best --all-subs --no-playlist -- https://www.youtube.com/watch?v=Mnfwx1PyOKI 
+[   0.572][d][cplayer] Run command: subprocess, flags=64, args=[args="/usr/bin/yt-dlp,--no-warnings,-J,--flat-playlist,--sub-format,ass/srt/best,--format,bestvideo+bestaudio/best,--all-subs,--no-playlist,--,https://www.youtube.com/watch?v=Mnfwx1PyOKI", playback_only="yes", capture_size="67108864", capture_stdout="yes", capture_stderr="yes", detach="no", env="", stdin_data="", passthrough_stdin="no"]
+[   1.354][v][ytdl_hook] youtube-dl succeeded! 
+[   1.354][d][ytdl_hook] ytdl parsing took 0.001909 seconds 
+[   1.354][d][ytdl_hook] No fragments to join into EDL 
+[   1.354][d][ytdl_hook] No fragments to join into EDL 
+[   1.354][v][ytdl_hook] format selection: youtube-dl (separate) 
+[   1.354][d][ytdl_hook] streamurl: edl://!new_stream;!no_clip;!no_chapters;%942%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=248&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=video%2Fwebm&gir=yes&clen=17801217&dur=268.600&lmt=1565811826987862&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgQEY0zHgdP17c837Rx0xrY8STO3ke0R-IgpunbK1q3EoCIElxagLlKjyQ-h-n0JOYqXsrWcbfTP5SAxi_AWVHkNsI&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!new_stream;!no_clip;!no_chapters;%947%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=251&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=4153412&dur=268.621&lmt=1565811754185348&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIrQGrKmDISf8lHCDY_Ky2SgtbSHIZvlV2KaDjdt5T16AiEA4BPbcYhGkhF2i8fUhiaWELCFv9UX8i-DtzPRF4MzIzU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!global_tags,uploader=%25%3 Inches of Blood - Topic,channel_url=%56%https://www.youtube.com/channel/UCwa_1qZHqIGupwT1JrdJr7w,ytdl_description=%336%Provided to YouTube by Roadrunner Records
+[   1.354][d][ytdl_hook] 
+[   1.354][d][ytdl_hook] Axes of Evil · 3 Inches Of Blood
+[   1.354][d][ytdl_hook] 
+[   1.354][d][ytdl_hook] Advance And Vanquish
+[   1.354][d][ytdl_hook] 
+[   1.354][d][ytdl_hook] ℗ 2004 The All Blacks B.V.
+[   1.354][d][ytdl_hook] 
+[   1.354][d][ytdl_hook] Mixer: Colin Richardson
+[   1.354][d][ytdl_hook] Producer: Neil Kernon
+[   1.354][d][ytdl_hook] Composer, Lyricist: Cameron Pipes
+[   1.354][d][ytdl_hook] Composer, Lyricist: James Hooper
+[   1.354][d][ytdl_hook] Composer, Lyricist: Robert Froese
+[   1.354][d][ytdl_hook] Composer, Lyricist: Sunjit Dhak
+[   1.354][d][ytdl_hook] 
+[   1.354][d][ytdl_hook] Auto-generated by YouTube. 
+[   1.354][v][cplayer] Set property: stream-open-filename="edl://!new_stream;!no_clip;!no_chapters;%942%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=248&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=video%2Fwebm&gir=yes&clen=17801217&dur=268.600&lmt=1565811826987862&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgQEY0zHgdP17c837Rx0xrY8STO3ke0R-IgpunbK1q3EoCIElxagLlKjyQ-h-n0JOYqXsrWcbfTP5SAxi_AWVHkNsI&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!new_stream;!no_clip;!no_chapters;%947%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=251&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=4153412&dur=268.621&lmt=1565811754185348&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIrQGrKmDISf8lHCDY_Ky2SgtbSHIZvlV2KaDjdt5T16AiEA4BPbcYhGkhF2i8fUhiaWELCFv9UX8i-DtzPRF4MzIzU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!global_tags,uploader=%25%3 Inches of Blood - Topic,channel_url=%56%https://www.youtube.com/channel/UCwa_1qZHqIGupwT1JrdJr7w,ytdl_description=%336%Provided to YouTube by Roadrunner Records\n\nAxes of Evil · 3 Inches Of Blood\n\nAdvance And Vanquish\n\n℗ 2004 The All Blacks B.V.\n\nMixer: Colin Richardson\nProducer: Neil Kernon\nComposer, Lyricist: Cameron Pipes\nComposer, Lyricist: James Hooper\nComposer, Lyricist: Robert Froese\nComposer, Lyricist: Sunjit Dhak\n\nAuto-generated by YouTube." -> 1
+[   1.354][v][cplayer] Set property: file-local-options/force-media-title="Axes of Evil" -> 1
+[   1.354][v][cplayer] Set property: file-local-options/stream-lavf-o={} -> 1
+[   1.354][d][ytdl_hook] script running time: 0.002194 seconds 
+[   1.354][v][edl] Opening edl://!new_stream;!no_clip;!no_chapters;%942%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=248&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=video%2Fwebm&gir=yes&clen=17801217&dur=268.600&lmt=1565811826987862&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgQEY0zHgdP17c837Rx0xrY8STO3ke0R-IgpunbK1q3EoCIElxagLlKjyQ-h-n0JOYqXsrWcbfTP5SAxi_AWVHkNsI&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!new_stream;!no_clip;!no_chapters;%947%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=251&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=4153412&dur=268.621&lmt=1565811754185348&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIrQGrKmDISf8lHCDY_Ky2SgtbSHIZvlV2KaDjdt5T16AiEA4BPbcYhGkhF2i8fUhiaWELCFv9UX8i-DtzPRF4MzIzU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!global_tags,uploader=%25%3 Inches of Blood - Topic,channel_url=%56%https://www.youtube.com/channel/UCwa_1qZHqIGupwT1JrdJr7w,ytdl_description=%336%Provided to YouTube by Roadrunner Records
+[   1.354][v][edl] 
+[   1.354][v][edl] Axes of Evil · 3 Inches Of Blood
+[   1.354][v][edl] 
+[   1.354][v][edl] Advance And Vanquish
+[   1.354][v][edl] 
+[   1.354][v][edl] ℗ 2004 The All Blacks B.V.
+[   1.354][v][edl] 
+[   1.354][v][edl] Mixer: Colin Richardson
+[   1.354][v][edl] Producer: Neil Kernon
+[   1.354][v][edl] Composer, Lyricist: Cameron Pipes
+[   1.354][v][edl] Composer, Lyricist: James Hooper
+[   1.354][v][edl] Composer, Lyricist: Robert Froese
+[   1.354][v][edl] Composer, Lyricist: Sunjit Dhak
+[   1.354][v][edl] 
+[   1.354][v][edl] Auto-generated by YouTube.
+[   1.354][d][edl] resize stream to 131072 bytes, drop 0 bytes
+[   1.354][d][edl] Stream opened successfully.
+[   1.354][v][demux] Trying demuxers for level=request.
+[   1.354][d][demux] Trying demuxer: edl (force-level: request)
+[   1.354][v][demux] Detected file format: Edit decision list
+[   1.354][v][demux] Stream is not seekable.
+[   1.354][v][demux] Opening segment 0...
+[   1.354][v][ffmpeg] Opening https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=248&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=video%2Fwebm&gir=yes&clen=17801217&dur=268.600&lmt=1565811826987862&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgQEY0zHgdP17c837Rx0xrY8STO3ke0R-IgpunbK1q3EoCIElxagLlKjyQ-h-n0JOYqXsrWcbfTP5SAxi_AWVHkNsI&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D
+[   1.354][d][ffmpeg] tcp: Starting connection attempt to 2a00:23a0:1a2:1::e port 443
+[   1.362][d][ffmpeg] tcp: Successfully connected to 2a00:23a0:1a2:1::e port 443
+[   1.413][d][ffmpeg] resize stream to 131072 bytes, drop 0 bytes
+[   1.413][v][ffmpeg] Mime-type: 'video/webm'
+[   1.413][d][ffmpeg] Stream opened successfully.
+[   1.413][v][demux] Trying demuxers for level=normal.
+[   1.413][d][demux] Trying demuxer: disc (force-level: normal)
+[   1.413][d][demux] Trying demuxer: edl (force-level: normal)
+[   1.488][d][demux] Trying demuxer: cue (force-level: normal)
+[   1.488][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   1.488][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   1.488][d][demux] Trying demuxer: mkv (force-level: normal)
+[   1.488][d][mkv] Found the head...
+[   1.488][d][mkv] + a segment...
+[   1.488][d][mkv] Parsing seek head...
+[   1.488][d][mkv] |+ segment information...
+[   1.488][d][mkv] float 268600.000000
+[   1.488][d][mkv] | + muxing app: google/video-file
+[   1.488][d][mkv] | + writing app: google/video-file
+[   1.488][d][mkv] | + timecode scale: 1000000
+[   1.488][d][mkv] | + duration: 268.600s
+[   1.488][d][mkv] |+ segment tracks...
+[   1.488][d][mkv] | + a track...
+[   1.488][d][mkv] |  + Track number: 1
+[   1.488][d][mkv] |  + Track type: Video
+[   1.488][d][mkv] |  + Video track
+[   1.488][d][mkv] |   + Pixel width: 1080
+[   1.488][d][mkv] |   + Pixel height: 1080
+[   1.488][d][mkv] |  + Codec ID: V_VP9
+[   1.488][d][mkv] |  + Default duration: 40.000ms ( = 25.000 fps)
+[   1.488][v][mkv] Parsing cues...
+[   1.488][d][mkv] |+ found cluster
+[   1.488][v][mkv] All headers are parsed!
+[   3.963][v][demux] Detected file format: Matroska
+[   3.963][v][demux] Opening segment 0...
+[   3.963][v][ffmpeg] Opening https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=251&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=4153412&dur=268.621&lmt=1565811754185348&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIrQGrKmDISf8lHCDY_Ky2SgtbSHIZvlV2KaDjdt5T16AiEA4BPbcYhGkhF2i8fUhiaWELCFv9UX8i-DtzPRF4MzIzU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D
+[   3.963][d][ffmpeg] tcp: Starting connection attempt to 2a00:23a0:1a2:1::e port 443
+[   3.971][d][ffmpeg] tcp: Successfully connected to 2a00:23a0:1a2:1::e port 443
+[   4.031][d][ffmpeg] resize stream to 131072 bytes, drop 0 bytes
+[   4.031][v][ffmpeg] Mime-type: 'audio/webm'
+[   4.031][d][ffmpeg] Stream opened successfully.
+[   4.031][v][demux] Trying demuxers for level=normal.
+[   4.031][d][demux] Trying demuxer: disc (force-level: normal)
+[   4.031][d][demux] Trying demuxer: edl (force-level: normal)
+[   4.033][d][demux] Trying demuxer: cue (force-level: normal)
+[   4.033][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   4.033][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   4.033][d][demux] Trying demuxer: mkv (force-level: normal)
+[   4.033][d][mkv] Found the head...
+[   4.033][d][mkv] + a segment...
+[   4.033][d][mkv] Parsing seek head...
+[   4.033][d][mkv] |+ segment information...
+[   4.033][d][mkv] float 268621.000000
+[   4.033][d][mkv] | + muxing app: google/video-file
+[   4.033][d][mkv] | + writing app: google/video-file
+[   4.033][d][mkv] | + timecode scale: 1000000
+[   4.033][d][mkv] | + duration: 268.621s
+[   4.033][d][mkv] |+ segment tracks...
+[   4.033][d][mkv] float 48000.000000
+[   4.033][d][mkv] | + a track...
+[   4.033][d][mkv] |  + Track number: 1
+[   4.033][d][mkv] |  + Track type: Audio
+[   4.033][d][mkv] |  + Audio track
+[   4.033][d][mkv] |   + Sampling frequency: 48000.000000
+[   4.033][d][mkv] |   + Bit depth: 16
+[   4.033][d][mkv] |   + Channels: 2
+[   4.033][d][mkv] |  + Codec ID: A_OPUS
+[   4.033][d][mkv] |  + CodecPrivate, length 19
+[   4.033][v][mkv] Parsing cues...
+[   4.033][d][mkv] |+ found cluster
+[   4.033][v][mkv] All headers are parsed!
+[   4.033][v][demux] Detected file format: Matroska
+[   4.033][d][demux] Trying demuxer: timeline (force-level: force)
+[   4.033][v][timeline] Timeline segments:
+[   4.033][v][timeline]   0:     0.000000 -   268.600000 [    0.000000] (0)
+[   4.033][v][timeline]   source 0:'https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=248&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=video%2Fwebm&gir=yes&clen=17801217&dur=268.600&lmt=1565811826987862&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgQEY0zHgdP17c837Rx0xrY8STO3ke0R-IgpunbK1q3EoCIElxagLlKjyQ-h-n0JOYqXsrWcbfTP5SAxi_AWVHkNsI&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D'
+[   4.033][v][timeline]  --- new parallel stream ---
+[   4.033][v][timeline]   0:     0.000000 -   268.621000 [    0.000000] (1)
+[   4.033][v][timeline]   source 0:'https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=251&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=4153412&dur=268.621&lmt=1565811754185348&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIrQGrKmDISf8lHCDY_Ky2SgtbSHIZvlV2KaDjdt5T16AiEA4BPbcYhGkhF2i8fUhiaWELCFv9UX8i-DtzPRF4MzIzU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D'
+[   4.033][v][timeline] Total duration: 268.621000
+[   4.033][v][demux] Detected file format: multi/mkv (timeline segments)
+[   4.033][v][cplayer] Opening done: edl://!new_stream;!no_clip;!no_chapters;%942%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=248&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=video%2Fwebm&gir=yes&clen=17801217&dur=268.600&lmt=1565811826987862&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgQEY0zHgdP17c837Rx0xrY8STO3ke0R-IgpunbK1q3EoCIElxagLlKjyQ-h-n0JOYqXsrWcbfTP5SAxi_AWVHkNsI&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!new_stream;!no_clip;!no_chapters;%947%https://rr3---sn-cu-cgne.googlevideo.com/videoplayback?expire=1671086841&ei=mW6aY-_NOY6QW-LiiaAB&ip=2a00%3A23c4%3Adc1b%3A3001%3A642%3A1aff%3Afeee%3A46a8&id=o-AOQlwKhPegnKKFpQRGAC-6BhhfmUlXRHbKqdix8BxCyr&itag=251&source=youtube&requiressl=yes&mh=u7&mm=31%2C29&mn=sn-cu-cgne%2Csn-cu-ajtee&ms=au%2Crdu&mv=m&mvi=3&pl=41&gcr=gb&initcwndbps=2235000&spc=zIddbMeGdlHDh1bgI6NXiuH6WwI5Q_Q&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=4153412&dur=268.621&lmt=1565811754185348&mt=1671064891&fvip=1&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIrQGrKmDISf8lHCDY_Ky2SgtbSHIZvlV2KaDjdt5T16AiEA4BPbcYhGkhF2i8fUhiaWELCFv9UX8i-DtzPRF4MzIzU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOb2nFPsgODAW90yxOGXGEN0VAUmXK_xmzoJCKl4lZNkAiASdMp_lnJwkZaKAfqYMuX6Vp8cM4yBc6XeAr46zQmQ4w%3D%3D;!global_tags,uploader=%25%3 Inches of Blood - Topic,channel_url=%56%https://www.youtube.com/channel/UCwa_1qZHqIGupwT1JrdJr7w,ytdl_description=%336%Provided to YouTube by Roadrunner Records
+[   4.033][v][cplayer] 
+[   4.033][v][cplayer] Axes of Evil · 3 Inches Of Blood
+[   4.033][v][cplayer] 
+[   4.033][v][cplayer] Advance And Vanquish
+[   4.033][v][cplayer] 
+[   4.033][v][cplayer] ℗ 2004 The All Blacks B.V.
+[   4.033][v][cplayer] 
+[   4.033][v][cplayer] Mixer: Colin Richardson
+[   4.033][v][cplayer] Producer: Neil Kernon
+[   4.033][v][cplayer] Composer, Lyricist: Cameron Pipes
+[   4.033][v][cplayer] Composer, Lyricist: James Hooper
+[   4.033][v][cplayer] Composer, Lyricist: Robert Froese
+[   4.033][v][cplayer] Composer, Lyricist: Sunjit Dhak
+[   4.033][v][cplayer] 
+[   4.033][v][cplayer] Auto-generated by YouTube.
+[   4.033][d][global] config path: 'sub' -/-> '/home/josh/.config/mpv/sub'
+[   4.033][d][global] config path: 'sub' -/-> '/home/josh/.mpv/sub'
+[   4.033][d][global] config path: 'sub' -/-> '/etc/mpv/sub'
+[   4.033][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   4.033][v][timeline] select track 0
+[   4.033][v][timeline] select track 1
+[   4.033][i][cplayer]  (+) Video --vid=1 (*) (vp9 1080x1080 25.000fps)
+[   4.033][i][cplayer]  (+) Audio --aid=1 --alang=eng (*) (opus 2ch 48000Hz)
+[   4.033][i][display-tags] File tags:
+[   4.033][i][display-tags]  Uploader: 3 Inches of Blood - Topic
+[   4.033][i][display-tags]  Channel_URL: https://www.youtube.com/channel/UCwa_1qZHqIGupwT1JrdJr7w
+[   4.034][v][vo/gpu/vulkan] Initializing GPU context 'waylandvk'
+[   4.034][v][vo/gpu/vulkan/libplacebo] Initialized libplacebo v208
+[   4.034][d][vo/gpu/vulkan/libplacebo] Available instance version: 1.3.235
+[   4.035][d][vo/gpu/vulkan/libplacebo] Available layers:
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_VALVE_steam_fossilize_64 (v1.3.207)
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_VALVE_steam_overlay_64 (v1.3.207)
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_VALVE_steam_fossilize_32 (v1.3.207)
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_VALVE_steam_overlay_32 (v1.3.207)
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_MANGOAPP_overlay (v1.2.135)
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_MANGOHUD_overlay (v1.2.135)
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_TORKEL104_libstrangle (v1.1.125)
+[   4.035][d][vo/gpu/vulkan/libplacebo]     VK_LAYER_MANGOHUD_overlay (v1.2.135)
+[   4.053][d][vo/gpu/vulkan/libplacebo] Available instance extensions:
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_device_group_creation
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_display
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_fence_capabilities
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_memory_capabilities
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_semaphore_capabilities
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_get_display_properties2
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_get_physical_device_properties2
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_get_surface_capabilities2
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_surface
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_surface_protected_capabilities
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_wayland_surface
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_xcb_surface
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_xlib_surface
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_EXT_acquire_drm_display
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_EXT_acquire_xlib_display
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_EXT_debug_report
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_EXT_debug_utils
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_EXT_direct_mode_display
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_EXT_display_surface_counter
+[   4.053][d][vo/gpu/vulkan/libplacebo]     VK_KHR_portability_enumeration
+[   4.053][v][vo/gpu/vulkan/libplacebo] Creating vulkan instance with extensions:
+[   4.053][v][vo/gpu/vulkan/libplacebo]     VK_KHR_get_physical_device_properties2
+[   4.053][v][vo/gpu/vulkan/libplacebo]     VK_KHR_surface
+[   4.053][v][vo/gpu/vulkan/libplacebo]     VK_KHR_external_memory_capabilities
+[   4.053][v][vo/gpu/vulkan/libplacebo]     VK_KHR_external_semaphore_capabilities
+[   4.053][v][vo/gpu/vulkan/libplacebo]     VK_KHR_portability_enumeration
+[   4.053][v][vo/gpu/vulkan/libplacebo]     VK_KHR_surface
+[   4.053][v][vo/gpu/vulkan/libplacebo]     VK_KHR_wayland_surface
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_shm
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_compositor
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_data_device_manager
+[   4.054][v][vo/gpu/wayland] Registered for protocol zwp_idle_inhibit_manager_v1
+[   4.054][v][vo/gpu/wayland] Registered for protocol xdg_wm_base
+[   4.054][v][vo/gpu/wayland] Registered for protocol zxdg_decoration_manager_v1
+[   4.054][v][vo/gpu/wayland] Registered for protocol wp_presentation
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_seat
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_output
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_output
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_output
+[   4.054][v][vo/gpu/wayland] Registered for protocol wl_output
+[   4.054][v][vo/gpu/vulkan/libplacebo] Probing for vulkan devices:
+[   4.055][v][vo/gpu/vulkan/libplacebo]     GPU 0: AMD Radeon RX 6900 XT (RADV NAVI21) (discrete)
+[   4.055][v][vo/gpu/vulkan/libplacebo]            uuid: 00:00:00:00:0C:00:00:00:00:00:00:00:00:00:00:00
+[   4.055][v][vo/gpu/vulkan/libplacebo] Vulkan device properties:
+[   4.055][v][vo/gpu/vulkan/libplacebo]     Device Name: AMD Radeon RX 6900 XT (RADV NAVI21)
+[   4.055][v][vo/gpu/vulkan/libplacebo]     Device ID: 1002:73bf
+[   4.055][v][vo/gpu/vulkan/libplacebo]     Device UUID: 00:00:00:00:0C:00:00:00:00:00:00:00:00:00:00:00
+[   4.055][v][vo/gpu/vulkan/libplacebo]     Driver version: 5802003
+[   4.055][v][vo/gpu/vulkan/libplacebo]     API version: 1.3.224
+[   4.055][d][vo/gpu/vulkan/libplacebo] Queue families supported by device:
+[   4.055][d][vo/gpu/vulkan/libplacebo]     0: flags 0xf num 1
+[   4.055][d][vo/gpu/vulkan/libplacebo]     1: flags 0xe num 4
+[   4.055][d][vo/gpu/vulkan/libplacebo] Using graphics queue 0
+[   4.055][v][vo/gpu/vulkan/libplacebo] Using async transfer (queue 1)
+[   4.055][v][vo/gpu/vulkan/libplacebo] Using async compute (queue 1)
+[   4.056][d][vo/gpu/vulkan/libplacebo] Available device extensions:
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_8bit_storage
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_16bit_storage
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_acceleration_structure
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_bind_memory2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_buffer_device_address
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_copy_commands2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_create_renderpass2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_dedicated_allocation
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_deferred_host_operations
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_depth_stencil_resolve
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_descriptor_update_template
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_device_group
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_draw_indirect_count
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_driver_properties
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_dynamic_rendering
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_fence
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_fence_fd
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_memory
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_memory_fd
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_semaphore
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_external_semaphore_fd
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_format_feature_flags2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_fragment_shading_rate
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_get_memory_requirements2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_image_format_list
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_imageless_framebuffer
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_incremental_present
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_maintenance1
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_maintenance2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_maintenance3
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_maintenance4
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_multiview
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_performance_query
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_pipeline_executable_properties
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_pipeline_library
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_push_descriptor
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_ray_query
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_ray_tracing_maintenance1
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_relaxed_block_layout
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_sampler_mirror_clamp_to_edge
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_sampler_ycbcr_conversion
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_separate_depth_stencil_layouts
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_atomic_int64
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_clock
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_draw_parameters
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_float16_int8
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_float_controls
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_integer_dot_product
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_non_semantic_info
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_subgroup_extended_types
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_subgroup_uniform_control_flow
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_shader_terminate_invocation
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_spirv_1_4
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_storage_buffer_storage_class
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_swapchain
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_swapchain_mutable_format
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_synchronization2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_timeline_semaphore
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_uniform_buffer_standard_layout
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_variable_pointers
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_vulkan_memory_model
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_workgroup_memory_explicit_layout
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_KHR_zero_initialize_workgroup_memory
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_4444_formats
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_attachment_feedback_loop_layout
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_border_color_swizzle
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_buffer_device_address
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_calibrated_timestamps
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_color_write_enable
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_conditional_rendering
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_conservative_rasterization
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_custom_border_color
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_depth_clip_control
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_depth_clip_enable
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_depth_range_unrestricted
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_descriptor_indexing
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_discard_rectangles
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_display_control
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_extended_dynamic_state
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_extended_dynamic_state2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_external_memory_dma_buf
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_external_memory_host
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_global_priority
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_global_priority_query
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_host_query_reset
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_image_2d_view_of_3d
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_image_drm_format_modifier
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_image_robustness
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_image_view_min_lod
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_index_type_uint8
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_inline_uniform_block
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_line_rasterization
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_memory_budget
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_memory_priority
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_multi_draw
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_non_seamless_cube_map
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_pci_bus_info
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_physical_device_drm
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_pipeline_creation_cache_control
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_pipeline_creation_feedback
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_post_depth_coverage
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_primitive_topology_list_restart
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_primitives_generated_query
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_private_data
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_provoking_vertex
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_queue_family_foreign
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_robustness2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_sampler_filter_minmax
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_scalar_block_layout
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_separate_stencil_usage
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_atomic_float
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_atomic_float2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_demote_to_helper_invocation
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_image_atomic_int64
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_module_identifier
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_stencil_export
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_subgroup_ballot
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_subgroup_vote
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_shader_viewport_index_layer
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_subgroup_size_control
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_texel_buffer_alignment
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_transform_feedback
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_vertex_attribute_divisor
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_vertex_input_dynamic_state
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_EXT_ycbcr_image_arrays
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_buffer_marker
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_device_coherent_memory
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_draw_indirect_count
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_gcn_shader
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_gpu_shader_half_float
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_gpu_shader_int16
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_memory_overallocation_behavior
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_mixed_attachment_samples
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_shader_ballot
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_shader_core_properties
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_shader_core_properties2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_shader_explicit_vertex_parameter
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_shader_fragment_mask
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_shader_image_load_store_lod
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_shader_trinary_minmax
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_AMD_texture_gather_bias_lod
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_GOOGLE_decorate_string
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_GOOGLE_hlsl_functionality1
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_GOOGLE_user_type
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_INTEL_shader_integer_functions2
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_NV_compute_shader_derivatives
+[   4.056][d][vo/gpu/vulkan/libplacebo]     VK_VALVE_mutable_descriptor_type
+[   4.056][v][vo/gpu/vulkan/libplacebo] Creating vulkan device with extensions:
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_KHR_swapchain
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_KHR_swapchain
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_KHR_push_descriptor
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_KHR_external_memory_fd
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_EXT_external_memory_dma_buf
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_EXT_external_memory_host
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_KHR_external_semaphore_fd
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_EXT_pci_bus_info
+[   4.056][v][vo/gpu/vulkan/libplacebo]     VK_EXT_image_drm_format_modifier
+[   4.063][v][vo/gpu/vulkan/libplacebo] Memory heaps supported by device:
+[   4.063][v][vo/gpu/vulkan/libplacebo]     0: flags 0x0 size   15G
+[   4.063][v][vo/gpu/vulkan/libplacebo]     1: flags 0x1 size   15G
+[   4.063][d][vo/gpu/vulkan/libplacebo] Memory types supported by device:
+[   4.063][d][vo/gpu/vulkan/libplacebo]     0: flags 0x1 heap 1
+[   4.063][d][vo/gpu/vulkan/libplacebo]     1: flags 0x1 heap 1
+[   4.063][d][vo/gpu/vulkan/libplacebo]     2: flags 0x6 heap 0
+[   4.063][d][vo/gpu/vulkan/libplacebo]     3: flags 0x7 heap 1
+[   4.063][d][vo/gpu/vulkan/libplacebo]     4: flags 0xe heap 0
+[   4.063][d][vo/gpu/vulkan/libplacebo]     5: flags 0xc1 heap 1
+[   4.063][d][vo/gpu/vulkan/libplacebo]     6: flags 0xc6 heap 0
+[   4.063][d][vo/gpu/vulkan/libplacebo]     7: flags 0xc7 heap 1
+[   4.063][d][vo/gpu/vulkan/libplacebo]     8: flags 0xce heap 0
+[   4.063][v][vo/gpu/vulkan/libplacebo] Memory summary:     0 used     0 res     0 alloc, efficiency 100.00%, utilization 100.00%
+[   4.063][v][vo/gpu/vulkan/libplacebo] shaderc SPIR-V version 1.6 rev 1
+[   4.063][v][vo/gpu/vulkan/libplacebo] Initialized SPIR-V compiler 'shaderc'
+[   4.063][d][vo/gpu/vulkan/libplacebo] Handle type VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_ALLOCATION_BIT_EXT (0x10) is not exportable
+[   4.063][d][vo/gpu/vulkan/libplacebo] Handle type VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_ALLOCATION_BIT_EXT (0x10) is not exportable
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r8 because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r8 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r8 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg8 because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg8 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg8 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba8 because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba8 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba8 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r16 because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r16 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r16 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg16 because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg16 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg16 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba16 because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba16 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba16 because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r8s because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r8s because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r8s because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg8s because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg8s because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg8s because its plane count 3 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba8s because its plane count 2 > 1
+[   4.063][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba8s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba8s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r16s because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r16s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r16s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg16s because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg16s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg16s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba16s because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba16s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba16s because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r16hf because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r16hf because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r16hf because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg16hf because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg16hf because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg16hf because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba16hf because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba16hf because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba16hf because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r32f because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r32f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r32f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg32f because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg32f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg32f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r16f because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r16f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r16f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg16f because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg16f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg16f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba16f because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba16f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba16f because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r8u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg8u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba8u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r16u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r16u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r16u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg16u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg16u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg16u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba16u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba16u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba16u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r32u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r32u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r32u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg32u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg32u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg32u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r8i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg8i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba8i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r16i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r16i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r16i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg16i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg16i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg16i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgba16i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgba16i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgba16i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format r32i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format r32i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format r32i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rg32i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rg32i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rg32i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format bgra8 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format bgra8 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format bgra8 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format bgra8u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format bgra8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format bgra8u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format bgra8i because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format bgra8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format bgra8i because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format argb4 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format argb4 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format argb4 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format abgr4 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format abgr4 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format abgr4 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format bgr565 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format bgr565 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format bgr565 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgb565 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgb565 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgb565 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format a1bgr5 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format a1bgr5 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format a1bgr5 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format a1rgb5 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format a1rgb5 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format a1rgb5 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format bgr5a1 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format bgr5a1 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format bgr5a1 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgb10a2 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgb10a2 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgb10a2 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format bgr10a2 because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format bgr10a2 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format bgr10a2 because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format rgb10a2u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format rgb10a2u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format rgb10a2u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x2096bb03 of format bgr10a2u because its plane count 2 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20967b03 of format bgr10a2u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Ignoring format modifier AMD 0x20937b03 of format bgr10a2u because its plane count 3 > 1
+[   4.064][d][vo/gpu/vulkan/libplacebo] Minimum texel alignment: 48
+[   4.064][v][vo/gpu/vulkan/libplacebo] GPU information:
+[   4.064][v][vo/gpu/vulkan/libplacebo]     GLSL version: 450 (vulkan)
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_shmem_size:            65536
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_group_threads:         1024
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_group_size[0]:         1024
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_group_size[1]:         1024
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_group_size[2]:         1024
+[   4.064][v][vo/gpu/vulkan/libplacebo]       subgroup_size:             64
+[   4.064][v][vo/gpu/vulkan/libplacebo]       min_gather_offset:         -32
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_gather_offset:         31
+[   4.064][v][vo/gpu/vulkan/libplacebo]     Limits:
+[   4.064][v][vo/gpu/vulkan/libplacebo]       thread_safe:               1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       callbacks:                 1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_buf_size:              18446744073709551615
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_ubo_size:              4294967295
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_ssbo_size:             4294967295
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_vbo_size:              18446744073709551615
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_mapped_size:           18446744073709551615
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_buffer_texels:         4294967295
+[   4.064][v][vo/gpu/vulkan/libplacebo]       align_host_ptr:            4096
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_tex_1d_dim:            16384
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_tex_2d_dim:            16384
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_tex_3d_dim:            2048
+[   4.064][v][vo/gpu/vulkan/libplacebo]       blittable_1d_3d:           1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       buf_transfer:              1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       align_tex_xfer_pitch:      1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       align_tex_xfer_offset:     4
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_variable_comps:        0
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_constants:             18446744073709551615
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_pushc_size:            256
+[   4.064][v][vo/gpu/vulkan/libplacebo]       align_vertex_stride:       1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_dispatch[0]:           65535
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_dispatch[1]:           65535
+[   4.064][v][vo/gpu/vulkan/libplacebo]       max_dispatch[2]:           65535
+[   4.064][v][vo/gpu/vulkan/libplacebo]       fragment_queues:           1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       compute_queues:            1
+[   4.064][v][vo/gpu/vulkan/libplacebo]     External API interop:
+[   4.064][v][vo/gpu/vulkan/libplacebo]       UUID: 00:00:00:00:0C:00:00:00:00:00:00:00:00:00:00:00
+[   4.064][v][vo/gpu/vulkan/libplacebo]       PCI: 0000:0c:00:0
+[   4.064][v][vo/gpu/vulkan/libplacebo]       buf export caps: 0x9
+[   4.064][v][vo/gpu/vulkan/libplacebo]       buf import caps: 0x19
+[   4.064][v][vo/gpu/vulkan/libplacebo]       tex export caps: 0x9
+[   4.064][v][vo/gpu/vulkan/libplacebo]       tex import caps: 0x19
+[   4.064][v][vo/gpu/vulkan/libplacebo]       sync export caps: 0x1
+[   4.064][v][vo/gpu/vulkan/libplacebo]       sync import caps: 0x0
+[   4.064][d][vo/gpu/vulkan/libplacebo] GPU texture formats:
+[   4.064][d][vo/gpu/vulkan/libplacebo]     NAME       TYPE   SIZE COMP CAPS         EMU DEPTH         HOST_BITS     GLSL_TYPE  GLSL_FMT   FOURCC
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r8         UNORM  1    R    SsLRbBVutHWG n   {8  0  0  0 } {8  0  0  0 } float      r8         R8    
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r8s        SNORM  1    R    SsLRbBVutHWG n   {8  0  0  0 } {8  0  0  0 } float      r8_snorm         
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg8        UNORM  2    RG   SsLRbBVutHWG n   {8  8  0  0 } {8  8  0  0 } vec2       rg8        GR88  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg8s       SNORM  2    RG   SsLRbBVutHWG n   {8  8  0  0 } {8  8  0  0 } vec2       rg8_snorm        
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba8      UNORM  4    RGBA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AB24  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba8s     SNORM  4    RGBA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8_snorm       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgra8      UNORM  4    BGRA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AR24  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb10a2    UNORM  4    RGBA SsLRbBVutHWG n   {10 10 10 2 } {10 10 10 2 } vec4       rgb10_a2   AB30  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr10a2    UNORM  4    BGRA SsLRbBVutHWG n   {10 10 10 2 } {10 10 10 2 } vec4       rgb10_a2   AR30  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r16        UNORM  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16        R16   
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r16hf      FLOAT  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16f             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r16s       SNORM  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16_snorm        
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg16       UNORM  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16       GR32  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg16hf     FLOAT  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16f            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg16s      SNORM  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16_snorm       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba16     UNORM  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16           
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba16hf   FLOAT  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16f    AB4H  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba16s    SNORM  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16_snorm       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r32f       FLOAT  4    R    SsLRbBVutHWG n   {32 0  0  0 } {32 0  0  0 } float      r32f             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg32f      FLOAT  8    RG   SsLRbBVutHWG n   {32 32 0  0 } {32 32 0  0 } vec2       rg32f            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba32f    FLOAT  16   RGBA SsLRbBVutHWG n   {32 32 32 32} {32 32 32 32} vec4       rgba32f          
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r8i        SINT   1    R    Ss-R-BVutHWG n   {8  0  0  0 } {8  0  0  0 } int        r8i              
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r8u        UINT   1    R    Ss-R-BVutHWG n   {8  0  0  0 } {8  0  0  0 } uint       r8ui             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg8i       SINT   2    RG   Ss-R-BVutHWG n   {8  8  0  0 } {8  8  0  0 } ivec2      rg8i             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg8u       UINT   2    RG   Ss-R-BVutHWG n   {8  8  0  0 } {8  8  0  0 } uvec2      rg8ui            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba8i     SINT   4    RGBA Ss-R-BVutHWG n   {8  8  8  8 } {8  8  8  8 } ivec4      rgba8i           
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba8u     UINT   4    RGBA Ss-R-BVutHWG n   {8  8  8  8 } {8  8  8  8 } uvec4      rgba8ui          
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgra8i     SINT   4    BGRA Ss-R-BVutHWG n   {8  8  8  8 } {8  8  8  8 } ivec4      rgba8i           
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgra8u     UINT   4    BGRA Ss-R-BVutHWG n   {8  8  8  8 } {8  8  8  8 } uvec4      rgba8ui          
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb10a2u   UINT   4    RGBA Ss-R-BVutHWG n   {10 10 10 2 } {10 10 10 2 } uvec4      rgb10_a2ui       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr10a2u   UINT   4    BGRA Ss-R-BVutHWG n   {10 10 10 2 } {10 10 10 2 } uvec4      rgb10_a2ui       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r16i       SINT   2    R    Ss-R-BVutHWG n   {16 0  0  0 } {16 0  0  0 } int        r16i             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r16u       UINT   2    R    Ss-R-BVutHWG n   {16 0  0  0 } {16 0  0  0 } uint       r16ui            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg16i      SINT   4    RG   Ss-R-BVutHWG n   {16 16 0  0 } {16 16 0  0 } ivec2      rg16i            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg16u      UINT   4    RG   Ss-R-BVutHWG n   {16 16 0  0 } {16 16 0  0 } uvec2      rg16ui           
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba16i    SINT   8    RGBA Ss-R-BVutHWG n   {16 16 16 16} {16 16 16 16} ivec4      rgba16i          
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba16u    UINT   8    RGBA Ss-R-BVutHWG n   {16 16 16 16} {16 16 16 16} uvec4      rgba16ui         
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r32i       SINT   4    R    Ss-R-BVutHWG n   {32 0  0  0 } {32 0  0  0 } int        r32i             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r32u       UINT   4    R    Ss-R-BVutHWG n   {32 0  0  0 } {32 0  0  0 } uint       r32ui            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg32i      SINT   8    RG   Ss-R-BVutHWG n   {32 32 0  0 } {32 32 0  0 } ivec2      rg32i            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg32u      UINT   8    RG   Ss-R-BVutHWG n   {32 32 0  0 } {32 32 0  0 } uvec2      rg32ui           
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba32i    SINT   16   RGBA Ss-R-BVutHWG n   {32 32 32 32} {32 32 32 32} ivec4      rgba32i          
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba32u    UINT   16   RGBA Ss-R-BVutHWG n   {32 32 32 32} {32 32 32 32} uvec4      rgba32ui         
+[   4.064][d][vo/gpu/vulkan/libplacebo]     a1rgb5     UNORM  2    ARGB SsLRbB---HWG n   {1  5  5  5 } {1  5  5  5 }                       BA15  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     a1bgr5     UNORM  2    ABGR SsLRbB---HWG n   {1  5  5  5 } {1  5  5  5 }                       RA15  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     argb4      UNORM  2    ARGB SsLRbB---HWG n   {4  4  4  4 } {4  4  4  4 }                       BA12  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     abgr4      UNORM  2    ABGR SsLRbB---HWG n   {4  4  4  4 } {4  4  4  4 }                       RA12  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb565     UNORM  2    RGB  SsLRbB---HWG n   {5  6  5  0 } {5  6  5  0 }                       BG16  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr5a1     UNORM  2    BGRA SsLRbB---HWG n   {5  5  5  1 } {5  5  5  1 }                       AR15  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr565     UNORM  2    BGR  SsLRbB---HWG n   {5  6  5  0 } {5  6  5  0 }                       RG16  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb32f     FLOAT  12   RGB  ------VutHW- n   {32 32 32 0 } {32 32 32 0 } vec3                        
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb32i     SINT   12   RGB  ------VutHW- n   {32 32 32 0 } {32 32 32 0 } ivec3                       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb32u     UINT   12   RGB  ------VutHW- n   {32 32 32 0 } {32 32 32 0 } uvec3                       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb10a2i   SINT   4    RGBA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } ivec4                       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb10a2s   SNORM  4    RGBA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } vec4                        
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr10a2i   SINT   4    BGRA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } ivec4                       
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr10a2s   SNORM  4    BGRA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } vec4                        
+[   4.064][d][vo/gpu/vulkan/libplacebo]     gr4        UNORM  1    GR   ---------H-- n   {4  4  0  0 } {4  4  0  0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb8i      SINT   3    RGB  ---------H-- n   {8  8  8  0 } {8  8  8  0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb8s      SNORM  3    RGB  ---------H-- n   {8  8  8  0 } {8  8  8  0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb8u      UINT   3    RGB  ---------H-- n   {8  8  8  0 } {8  8  8  0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr8       UNORM  3    BGR  ---------H-- n   {8  8  8  0 } {8  8  8  0 }                       RG24  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr8i      SINT   3    BGR  ---------H-- n   {8  8  8  0 } {8  8  8  0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     bgr8u      UINT   3    BGR  ---------H-- n   {8  8  8  0 } {8  8  8  0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb16hf    FLOAT  6    RGB  ---------H-- n   {16 16 16 0 } {16 16 16 0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb16i     SINT   6    RGB  ---------H-- n   {16 16 16 0 } {16 16 16 0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb16s     SNORM  6    RGB  ---------H-- n   {16 16 16 0 } {16 16 16 0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb16u     UINT   6    RGB  ---------H-- n   {16 16 16 0 } {16 16 16 0 }                             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb8       UNORM  3    RGB  SsLRbB---HWG y   {8  8  8  0 } {8  8  8  0 }            rgba8      BG24  
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb16      UNORM  6    RGB  SsLRbB---HWG y   {16 16 16 0 } {16 16 16 0 }            rgba16           
+[   4.064][d][vo/gpu/vulkan/libplacebo]     r16f       FLOAT  4    R    SsLRbB---HWG y   {16 0  0  0 } {32 0  0  0 }            r16f             
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rg16f      FLOAT  8    RG   SsLRbB---HWG y   {16 16 0  0 } {32 32 0  0 }            rg16f            
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgba16f    FLOAT  16   RGBA SsLRbB---HWG y   {16 16 16 16} {32 32 32 32}            rgba16f          
+[   4.064][d][vo/gpu/vulkan/libplacebo]     rgb16f     FLOAT  12   RGB  ---------H-- y   {16 16 16 0 } {32 32 32 0 }                             
+[   4.065][v][vo/gpu/vulkan/libplacebo] Available surface configurations:
+[   4.065][v][vo/gpu/vulkan/libplacebo]     0: VK_FORMAT_A2R10G10B10_UNORM_PACK32       VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][v][vo/gpu/vulkan/libplacebo]     1: VK_FORMAT_A2B10G10R10_UNORM_PACK32       VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][v][vo/gpu/vulkan/libplacebo]     2: VK_FORMAT_B8G8R8A8_SRGB                  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][v][vo/gpu/vulkan/libplacebo]     3: VK_FORMAT_B8G8R8A8_UNORM                 VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][v][vo/gpu/vulkan/libplacebo]     4: VK_FORMAT_R8G8B8A8_SRGB                  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][v][vo/gpu/vulkan/libplacebo]     5: VK_FORMAT_R8G8B8A8_UNORM                 VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][v][vo/gpu/vulkan/libplacebo]     6: VK_FORMAT_R5G6B5_UNORM_PACK16            VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][v][vo/gpu/vulkan/libplacebo] Picked surface configuration 0: VK_FORMAT_A2R10G10B10_UNORM_PACK32 + VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   4.065][d][vo/gpu/vulkan] Texture formats:
+[   4.065][d][vo/gpu/vulkan]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   4.065][d][vo/gpu/vulkan]   r8         1*unorm   1B    LF CR ST {8}
+[   4.065][d][vo/gpu/vulkan]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   4.065][d][vo/gpu/vulkan]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   4.065][d][vo/gpu/vulkan]   bgra8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   4.065][d][vo/gpu/vulkan]   rgb10a2    4*unorm   4B    LF CR ST {10 10 10 2}
+[   4.065][d][vo/gpu/vulkan]   bgr10a2    4*unorm   4B    LF CR ST {10 10 10 2}
+[   4.065][d][vo/gpu/vulkan]   r16        1*unorm   2B    LF CR ST {16}
+[   4.065][d][vo/gpu/vulkan]   r16hf      1*float   2B    LF CR ST {16}
+[   4.065][d][vo/gpu/vulkan]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   4.065][d][vo/gpu/vulkan]   rg16hf     2*float   4B    LF CR ST {16 16}
+[   4.065][d][vo/gpu/vulkan]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   4.065][d][vo/gpu/vulkan]   rgba16hf   4*float   8B    LF CR ST {16 16 16 16}
+[   4.065][d][vo/gpu/vulkan]   r32f       1*float   4B    LF CR ST {32}
+[   4.065][d][vo/gpu/vulkan]   rg32f      2*float   8B    LF CR ST {32 32}
+[   4.065][d][vo/gpu/vulkan]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   4.065][d][vo/gpu/vulkan]   r8u        1*uint    1B       CR ST {8}
+[   4.065][d][vo/gpu/vulkan]   rg8u       2*uint    2B       CR ST {8 8}
+[   4.065][d][vo/gpu/vulkan]   rgba8u     4*uint    4B       CR ST {8 8 8 8}
+[   4.065][d][vo/gpu/vulkan]   bgra8u     4*uint    4B       CR ST {8 8 8 8}
+[   4.065][d][vo/gpu/vulkan]   rgb10a2u   4*uint    4B       CR ST {10 10 10 2}
+[   4.065][d][vo/gpu/vulkan]   bgr10a2u   4*uint    4B       CR ST {10 10 10 2}
+[   4.065][d][vo/gpu/vulkan]   r16u       1*uint    2B       CR ST {16}
+[   4.065][d][vo/gpu/vulkan]   rg16u      2*uint    4B       CR ST {16 16}
+[   4.065][d][vo/gpu/vulkan]   rgba16u    4*uint    8B       CR ST {16 16 16 16}
+[   4.065][d][vo/gpu/vulkan]   r32u       1*uint    4B       CR ST {32}
+[   4.065][d][vo/gpu/vulkan]   rg32u      2*uint    8B       CR ST {32 32}
+[   4.065][d][vo/gpu/vulkan]   rgba32u    4*uint   16B       CR ST {32 32 32 32}
+[   4.065][d][vo/gpu/vulkan]   a1rgb5     4*unorm   2B    LF CR ST {1 5 5 5}
+[   4.065][d][vo/gpu/vulkan]   a1bgr5     4*unorm   2B    LF CR ST {1 5 5 5}
+[   4.065][d][vo/gpu/vulkan]   argb4      4*unorm   2B    LF CR ST {4 4 4 4}
+[   4.065][d][vo/gpu/vulkan]   abgr4      4*unorm   2B    LF CR ST {4 4 4 4}
+[   4.065][d][vo/gpu/vulkan]   rgb565     3*unorm   2B    LF CR ST {5 6 5}
+[   4.065][d][vo/gpu/vulkan]   bgr5a1     4*unorm   2B    LF CR ST {5 5 5 1}
+[   4.065][d][vo/gpu/vulkan]   bgr565     3*unorm   2B    LF CR ST {5 6 5}
+[   4.065][d][vo/gpu/vulkan]   rgb8       3*unorm   3B    LF CR ST {8 8 8}
+[   4.065][d][vo/gpu/vulkan]   rgb16      3*unorm   6B    LF CR ST {16 16 16}
+[   4.065][d][vo/gpu/vulkan]   r16f       1*float   4B    LF CR ST {32/16}
+[   4.065][d][vo/gpu/vulkan]   rg16f      2*float   8B    LF CR ST {32/16 32/16}
+[   4.065][d][vo/gpu/vulkan]   rgba16f    4*float  16B    LF CR ST {32/16 32/16 32/16 32/16}
+[   4.065][d][vo/gpu/vulkan]  LA = LUMINANCE_ALPHA hack format
+[   4.065][d][vo/gpu/vulkan]  LF = linear filterable
+[   4.065][d][vo/gpu/vulkan]  CR = can be used for render targets
+[   4.065][d][vo/gpu/vulkan]  ST = can be used for storable images
+[   4.065][d][vo/gpu/vulkan] Image formats:
+[   4.065][d][vo/gpu/vulkan]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   uyvy422
+[   4.065][d][vo/gpu/vulkan]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   4.065][d][vo/gpu/vulkan]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   4.065][d][vo/gpu/vulkan]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   4.065][d][vo/gpu/vulkan]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   4.065][d][vo/gpu/vulkan]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   4.065][d][vo/gpu/vulkan]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   4.065][d][vo/gpu/vulkan]   bgr24 => 1 planes 1x1 8/0 [rgb8] (bgr) [unorm]
+[   4.065][d][vo/gpu/vulkan]   rgb24 => 1 planes 1x1 8/0 [rgb8] (rgb) [unorm]
+[   4.065][d][vo/gpu/vulkan]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   4.065][d][vo/gpu/vulkan]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   4.065][d][vo/gpu/vulkan]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   4.065][d][vo/gpu/vulkan]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   4.065][d][vo/gpu/vulkan]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   4.065][d][vo/gpu/vulkan]   rgb565
+[   4.065][d][vo/gpu/vulkan]   pal8
+[   4.065][d][vo/gpu/vulkan]   vdpau
+[   4.065][d][vo/gpu/vulkan]   d3d11
+[   4.065][d][vo/gpu/vulkan]   dxva2_vld
+[   4.065][d][vo/gpu/vulkan]   mmal
+[   4.065][d][vo/gpu/vulkan]   mediacodec
+[   4.065][d][vo/gpu/vulkan]   drm_prime
+[   4.065][d][vo/gpu/vulkan]   cuda
+[   4.065][d][vo/gpu/vulkan]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   grayaf32 => 2 planes 1x1 32/0 [r32f/r32f] (r/a) [float]
+[   4.065][d][vo/gpu/vulkan]   yuv444pf => 3 planes 1x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   4.065][d][vo/gpu/vulkan]   yuva444pf => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   4.065][d][vo/gpu/vulkan]   yuv420pf => 3 planes 2x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   4.065][d][vo/gpu/vulkan]   yuva420pf => 4 planes 2x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   4.065][d][vo/gpu/vulkan]   yuv422pf => 3 planes 2x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   4.065][d][vo/gpu/vulkan]   yuva422pf => 4 planes 2x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   4.065][d][vo/gpu/vulkan]   yuv440pf => 3 planes 1x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   4.065][d][vo/gpu/vulkan]   yuva440pf => 4 planes 1x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   4.065][d][vo/gpu/vulkan]   yuv410pf => 3 planes 4x4 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   4.065][d][vo/gpu/vulkan]   yuva410pf => 4 planes 4x4 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   4.065][d][vo/gpu/vulkan]   yuv411pf => 3 planes 4x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   4.065][d][vo/gpu/vulkan]   yuva411pf => 4 planes 4x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   4.065][d][vo/gpu/vulkan]   rgb30
+[   4.065][d][vo/gpu/vulkan]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   vdpau_output
+[   4.065][d][vo/gpu/vulkan]   vaapi
+[   4.065][d][vo/gpu/vulkan]   videotoolbox
+[   4.065][d][vo/gpu/vulkan]   yuyv422
+[   4.065][d][vo/gpu/vulkan]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   monow
+[   4.065][d][vo/gpu/vulkan]   monob
+[   4.065][d][vo/gpu/vulkan]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   uyyvyy411
+[   4.065][d][vo/gpu/vulkan]   bgr8
+[   4.065][d][vo/gpu/vulkan]   bgr4
+[   4.065][d][vo/gpu/vulkan]   bgr4_byte
+[   4.065][d][vo/gpu/vulkan]   rgb8
+[   4.065][d][vo/gpu/vulkan]   rgb4
+[   4.065][d][vo/gpu/vulkan]   rgb4_byte
+[   4.065][d][vo/gpu/vulkan]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gray16be
+[   4.065][d][vo/gpu/vulkan]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   rgb48be
+[   4.065][d][vo/gpu/vulkan]   rgb48 => 1 planes 1x1 16/0 [rgb16] (rgb) [unorm]
+[   4.065][d][vo/gpu/vulkan]   rgb565be
+[   4.065][d][vo/gpu/vulkan]   rgb555be
+[   4.065][d][vo/gpu/vulkan]   rgb555
+[   4.065][d][vo/gpu/vulkan]   bgr565be
+[   4.065][d][vo/gpu/vulkan]   bgr565
+[   4.065][d][vo/gpu/vulkan]   bgr555be
+[   4.065][d][vo/gpu/vulkan]   bgr555
+[   4.065][d][vo/gpu/vulkan]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv420p16be
+[   4.065][d][vo/gpu/vulkan]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv422p16be
+[   4.065][d][vo/gpu/vulkan]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv444p16be
+[   4.065][d][vo/gpu/vulkan]   rgb444
+[   4.065][d][vo/gpu/vulkan]   rgb444be
+[   4.065][d][vo/gpu/vulkan]   bgr444
+[   4.065][d][vo/gpu/vulkan]   bgr444be
+[   4.065][d][vo/gpu/vulkan]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   4.065][d][vo/gpu/vulkan]   bgr48be
+[   4.065][d][vo/gpu/vulkan]   bgr48 => 1 planes 1x1 16/0 [rgb16] (bgr) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv420p9be
+[   4.065][d][vo/gpu/vulkan]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv420p10be
+[   4.065][d][vo/gpu/vulkan]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv422p10be
+[   4.065][d][vo/gpu/vulkan]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv444p9be
+[   4.065][d][vo/gpu/vulkan]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv444p10be
+[   4.065][d][vo/gpu/vulkan]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuv422p9be
+[   4.065][d][vo/gpu/vulkan]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp9be
+[   4.065][d][vo/gpu/vulkan]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp10be
+[   4.065][d][vo/gpu/vulkan]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   gbrp16be
+[   4.065][d][vo/gpu/vulkan]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva420p9be
+[   4.065][d][vo/gpu/vulkan]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva422p9be
+[   4.065][d][vo/gpu/vulkan]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva444p9be
+[   4.065][d][vo/gpu/vulkan]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva420p10be
+[   4.065][d][vo/gpu/vulkan]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva422p10be
+[   4.065][d][vo/gpu/vulkan]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva444p10be
+[   4.065][d][vo/gpu/vulkan]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.065][d][vo/gpu/vulkan]   yuva420p16be
+[   4.065][d][vo/gpu/vulkan]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuva422p16be
+[   4.066][d][vo/gpu/vulkan]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuva444p16be
+[   4.066][d][vo/gpu/vulkan]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   xyz12 => 1 planes 1x1 16/4 [rgb16] (rgb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   xyz12be
+[   4.066][d][vo/gpu/vulkan]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   nv20be
+[   4.066][d][vo/gpu/vulkan]   rgba64be
+[   4.066][d][vo/gpu/vulkan]   bgra64be
+[   4.066][d][vo/gpu/vulkan]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yvyu422
+[   4.066][d][vo/gpu/vulkan]   ya16be
+[   4.066][d][vo/gpu/vulkan]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gbrap16be
+[   4.066][d][vo/gpu/vulkan]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   qsv
+[   4.066][d][vo/gpu/vulkan]   d3d11va_vld
+[   4.066][d][vo/gpu/vulkan]   yuv420p12be
+[   4.066][d][vo/gpu/vulkan]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuv420p14be
+[   4.066][d][vo/gpu/vulkan]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuv422p12be
+[   4.066][d][vo/gpu/vulkan]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuv422p14be
+[   4.066][d][vo/gpu/vulkan]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuv444p12be
+[   4.066][d][vo/gpu/vulkan]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuv444p14be
+[   4.066][d][vo/gpu/vulkan]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gbrp12be
+[   4.066][d][vo/gpu/vulkan]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gbrp14be
+[   4.066][d][vo/gpu/vulkan]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   bayer_bggr8
+[   4.066][d][vo/gpu/vulkan]   bayer_rggb8
+[   4.066][d][vo/gpu/vulkan]   bayer_gbrg8
+[   4.066][d][vo/gpu/vulkan]   bayer_grbg8
+[   4.066][d][vo/gpu/vulkan]   bayer_bggr16
+[   4.066][d][vo/gpu/vulkan]   bayer_bggr16be
+[   4.066][d][vo/gpu/vulkan]   bayer_rggb16
+[   4.066][d][vo/gpu/vulkan]   bayer_rggb16be
+[   4.066][d][vo/gpu/vulkan]   bayer_gbrg16
+[   4.066][d][vo/gpu/vulkan]   bayer_gbrg16be
+[   4.066][d][vo/gpu/vulkan]   bayer_grbg16
+[   4.066][d][vo/gpu/vulkan]   bayer_grbg16be
+[   4.066][d][vo/gpu/vulkan]   xvmc
+[   4.066][d][vo/gpu/vulkan]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuv440p10be
+[   4.066][d][vo/gpu/vulkan]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuv440p12be
+[   4.066][d][vo/gpu/vulkan]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   ayuv64be
+[   4.066][d][vo/gpu/vulkan]   p010be
+[   4.066][d][vo/gpu/vulkan]   gbrap12be
+[   4.066][d][vo/gpu/vulkan]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gbrap10be
+[   4.066][d][vo/gpu/vulkan]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gray12be
+[   4.066][d][vo/gpu/vulkan]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gray10be
+[   4.066][d][vo/gpu/vulkan]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   4.066][d][vo/gpu/vulkan]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   p016be
+[   4.066][d][vo/gpu/vulkan]   gray9be
+[   4.066][d][vo/gpu/vulkan]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   4.066][d][vo/gpu/vulkan]   gbrpf32be
+[   4.066][d][vo/gpu/vulkan]   gbrpf32 => 3 planes 1x1 32/0 [r32f/r32f/r32f] (g/b/r) [float]
+[   4.066][d][vo/gpu/vulkan]   gbrapf32be
+[   4.066][d][vo/gpu/vulkan]   gbrapf32 => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (g/b/r/a) [float]
+[   4.066][d][vo/gpu/vulkan]   opencl
+[   4.066][d][vo/gpu/vulkan]   gray14be
+[   4.066][d][vo/gpu/vulkan]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   4.066][d][vo/gpu/vulkan]   grayf32be
+[   4.066][d][vo/gpu/vulkan]   grayf32 => 1 planes 1x1 32/0 [r32f] (r) [float]
+[   4.066][d][vo/gpu/vulkan]   yuva422p12be
+[   4.066][d][vo/gpu/vulkan]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   yuva444p12be
+[   4.066][d][vo/gpu/vulkan]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   4.066][d][vo/gpu/vulkan]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   4.066][d][vo/gpu/vulkan]   vulkan
+[   4.066][d][vo/gpu/vulkan]   y210be
+[   4.066][d][vo/gpu/vulkan]   y210
+[   4.066][d][vo/gpu/vulkan]   x2rgb10be
+[   4.066][d][vo/gpu/vulkan]   x2bgr10
+[   4.066][d][vo/gpu/vulkan]   x2bgr10be
+[   4.066][d][vo/gpu/vulkan]   p210be
+[   4.066][d][vo/gpu/vulkan]   p210 => 2 planes 2x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   p410be
+[   4.066][d][vo/gpu/vulkan]   p410 => 2 planes 1x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   p216be
+[   4.066][d][vo/gpu/vulkan]   p216 => 2 planes 2x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   4.066][d][vo/gpu/vulkan]   p416be
+[   4.066][d][vo/gpu/vulkan]   p416 => 2 planes 1x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   4.066][v][vo/gpu] Testing FBO format rgba16f
+[   4.066][d][vo/gpu] Resizing texture: 16x16
+[   4.066][d][vo/gpu/vulkan/libplacebo] Allocating 262144 memory of type 0x1 (id 0) in heap 1
+[   4.066][v][vo/gpu] Using FBO format rgba16f.
+[   4.066][v][vo/gpu] No advanced processing required. Enabling dumb mode.
+[   4.066][v][vo/gpu/wayland] Registered output Unknown Gigabyte M32U (0x29):
+[   4.066][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   4.066][v][vo/gpu/wayland] 	w: 3840px (700mm), h: 2160px (390mm)
+[   4.066][v][vo/gpu/wayland] 	scale: 2
+[   4.066][v][vo/gpu/wayland] 	Hz: 143.999000
+[   4.066][v][vo/gpu/wayland] Registered output ViewSonic Corporation XG270QG (0x2a):
+[   4.066][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   4.066][v][vo/gpu/wayland] 	w: 2560px (610mm), h: 1440px (360mm)
+[   4.066][v][vo/gpu/wayland] 	scale: 1
+[   4.066][v][vo/gpu/wayland] 	Hz: 143.998000
+[   4.066][v][vo/gpu/wayland] Registered output Dell Inc. DELL U2412M (0x2b):
+[   4.066][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   4.066][v][vo/gpu/wayland] 	w: 1920px (520mm), h: 1200px (320mm)
+[   4.066][v][vo/gpu/wayland] 	scale: 1
+[   4.066][v][vo/gpu/wayland] 	Hz: 59.950000
+[   4.066][v][vo/gpu/wayland] Registered output Sony SONY TV (0x2c):
+[   4.066][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   4.066][v][vo/gpu/wayland] 	w: 1920px (1060mm), h: 1080px (600mm)
+[   4.066][v][vo/gpu/wayland] 	scale: 1
+[   4.066][v][vo/gpu/wayland] 	Hz: 60.000000
+[   4.067][v][vd] Container reported FPS: 25.000000
+[   4.067][v][vd] Codec list:
+[   4.067][v][vd]     vp9 - Google VP9
+[   4.067][v][vd]     vp9_v4l2m2m (vp9) - V4L2 mem2mem VP9 decoder wrapper
+[   4.067][v][vd]     libvpx-vp9 (vp9) - libvpx VP9
+[   4.067][v][vd]     vp9_cuvid (vp9) - Nvidia CUVID VP9 decoder
+[   4.067][v][vd]     vp9_qsv (vp9) - VP9 video (Intel Quick Sync Video acceleration)
+[   4.067][v][vd] Opening decoder vp9
+[   4.067][v][vd] Looking at hwdec vp9-nvdec...
+[   4.067][v][vo/gpu] Loading hwdec driver 'vaapi-egl'
+[   4.067][v][vo/gpu/vaapi-egl] using VAAPI Vulkan interop
+[   4.067][v][vo/gpu/vaapi-egl] Trying to open a x11 VA display...
+[   4.067][v][vo/gpu/vaapi-egl] Trying to open a wayland VA display...
+[   4.067][d][vo/gpu/vaapi-egl/vaapi] libva: VA-API version 1.16.0
+[   4.067][d][vo/gpu/vaapi-egl/vaapi] libva: Trying to open /usr/lib/dri/radeonsi_drv_video.so
+[   4.068][d][vo/gpu/vaapi-egl/vaapi] libva: Found init function __vaDriverInit_1_16
+[   4.072][d][vo/gpu/vaapi-egl/vaapi] libva: va_openDriver() returns 0
+[   4.072][v][vo/gpu/vaapi-egl/vaapi] Initialized VAAPI: version 1.16
+[   4.072][d][ffmpeg] AVHWDeviceContext: VAAPI driver: Mesa Gallium driver 22.2.3 for AMD Radeon RX 6900 XT (navi21, LLVM 14.0.6, DRM 3.48, 6.0.11-zen1-1-zen).
+[   4.072][d][ffmpeg] AVHWDeviceContext: Driver not found in known nonstandard list, using standard behaviour.
+[   4.072][v][vo/gpu/vaapi-egl] Going to probe surface formats (may log bogus errors)...
+[   4.076][v][vo/gpu/vulkan] DRM modifier INVALID not available for format rgba8. Available modifiers:
+[   4.076][v][vo/gpu/vulkan]     AMD 0x20801b03
+[   4.076][v][vo/gpu/vulkan]     AMD 0x801902
+[   4.076][v][vo/gpu/vulkan]     AMD 0x901
+[   4.076][v][vo/gpu/vulkan]     LINEAR
+[   4.076][v][vo/gpu/vulkan] DRM modifier INVALID not available for format rgba8. Available modifiers:
+[   4.076][v][vo/gpu/vulkan]     AMD 0x20801b03
+[   4.076][v][vo/gpu/vulkan]     AMD 0x801902
+[   4.076][v][vo/gpu/vulkan]     AMD 0x901
+[   4.076][v][vo/gpu/vulkan]     LINEAR
+[   4.076][v][vo/gpu/vulkan] DRM modifier INVALID not available for format rgba8. Available modifiers:
+[   4.076][v][vo/gpu/vulkan]     AMD 0x20801b03
+[   4.076][v][vo/gpu/vulkan]     AMD 0x801902
+[   4.076][v][vo/gpu/vulkan]     AMD 0x901
+[   4.076][v][vo/gpu/vulkan]     LINEAR
+[   4.076][v][vo/gpu/vulkan] DRM modifier INVALID not available for format rgba8. Available modifiers:
+[   4.076][v][vo/gpu/vulkan]     AMD 0x20801b03
+[   4.076][v][vo/gpu/vulkan]     AMD 0x801902
+[   4.076][v][vo/gpu/vulkan]     AMD 0x901
+[   4.076][v][vo/gpu/vulkan]     LINEAR
+[   4.076][d][vo/gpu/vaapi-egl] Supported formats:
+[   4.076][d][vo/gpu/vaapi-egl]  nv12
+[   4.076][d][vo/gpu/vaapi-egl]  p010
+[   4.076][v][vo/gpu/vaapi-egl] Done probing surface formats.
+[   4.076][v][vo/gpu] Loading hwdec driver 'cuda-nvdec'
+[   4.076][v][vo/gpu/cuda-nvdec] Failed to load CUDA symbols
+[   4.076][v][vo/gpu] Loading failed.
+[   4.077][v][vo/gpu] Loading hwdec driver 'drmprime-drm'
+[   4.077][v][vo/gpu/drmprime-drm] Failed to retrieve DRM fd from native display.
+[   4.077][v][vo/gpu] Loading failed.
+[   4.077][v][vd] Could not create device.
+[   4.077][v][vd] Looking at hwdec vp9-vaapi...
+[   4.077][v][vd] Trying hardware decoding via vp9-vaapi.
+[   4.077][v][vd] Selected codec: vp9 (Google VP9)
+[   4.077][v][vf] User filter list:
+[   4.077][v][vf]   (empty)
+[   4.077][v][ad] Codec list:
+[   4.077][v][ad]     opus - Opus
+[   4.077][v][ad]     libopus (opus) - libopus Opus
+[   4.077][v][ad] Opening decoder opus
+[   4.077][v][ad] Requesting 1 threads for decoding.
+[   4.077][v][ad] Selected codec: opus (Opus)
+[   4.077][v][af] User filter list:
+[   4.077][v][af]   (empty)
+[   4.077][v][cplayer] Starting playback...
+[   4.077][v][timeline] switch to segment 0
+[   4.077][v][mkv] select track 0
+[   4.077][v][timeline] switch to segment 0
+[   4.077][v][mkv] select track 0
+[   4.077][d][timeline] stream 1: resize index to 128
+[   4.077][d][osc] osc_init 
+[   4.077][d][sponsorblock] Path: https://www.youtube.com/watch?v=Mnfwx1PyOKI 
+[   4.077][d][sponsorblock] Referer:  
+[   4.077][d][sponsorblock] Found YouTube ID: Mnfwx1PyOKI 
+[   4.077][d][cplayer] Run command: subprocess, flags=64, args=[args="python3,/home/josh/.config/mpv/scripts/sponsorblock_shared/sponsorblock.py,ranges,,https://sponsor.ajay.app,Mnfwx1PyOKI,sponsor,intro,outro,interaction,selfpromo,4", playback_only="no", capture_size="67108864", capture_stdout="yes", capture_stderr="no", detach="no", env="", stdin_data="", passthrough_stdin="no"]
+[   4.078][v][vd] Pixel formats supported by decoder: cuda vaapi vdpau yuv420p
+[   4.078][v][vd] Codec profile: Profile 0 (0x0)
+[   4.082][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[   4.087][i][vd] Using hardware decoding (vaapi).
+[   4.087][v][vd] Decoder format: 1080x1080 [0:1] vaapi[nv12] auto/auto/auto/limited/auto CL=unknown
+[   4.087][v][vd] Using container aspect ratio.
+[   4.087][v][vf] [in] 1080x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   4.088][v][vf] [userdeint] 1080x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   4.088][v][vf] [userdeint] (disabled)
+[   4.088][v][vf] [autorotate] 1080x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   4.088][v][vf] [autorotate] (disabled)
+[   4.088][v][vf] [convert] 1080x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   4.088][v][vf] [convert] (disabled)
+[   4.088][v][vf] [out] 1080x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   4.088][v][af] [in] 48000Hz stereo 2ch floatp
+[   4.088][v][af] [userspeed] 48000Hz stereo 2ch floatp
+[   4.088][v][af] [userspeed] (disabled)
+[   4.088][v][af] [convert] 48000Hz stereo 2ch floatp
+[   4.088][v][ao] Trying audio driver 'pulse'
+[   4.088][v][ao/pulse] requested format: 48000 Hz, stereo channels, floatp
+[   4.088][v][ao/pulse] Library version: 16.1.0
+[   4.088][v][ao/pulse] Proto: 35
+[   4.088][v][ao/pulse] Server proto: 4294967295
+[   4.090][v][ao/pulse] Channel layouts:
+[   4.091][v][ao/pulse]  - #fl
+[   4.091][v][ao/pulse]  - #fr
+[   4.091][v][ao/pulse]  - #fc
+[   4.091][v][ao/pulse]  - #lfe
+[   4.091][v][ao/pulse]  - #bl
+[   4.091][v][ao/pulse]  - #br
+[   4.091][v][ao/pulse]  - #flc
+[   4.091][v][ao/pulse]  - #frc
+[   4.091][v][ao/pulse]  - #bc
+[   4.091][v][ao/pulse]  - #sl
+[   4.091][v][ao/pulse]  - #sr
+[   4.091][v][ao/pulse]  - #tc
+[   4.091][v][ao/pulse]  - #tfl
+[   4.091][v][ao/pulse]  - #tfc
+[   4.091][v][ao/pulse]  - #tfr
+[   4.091][v][ao/pulse]  - #tbl
+[   4.091][v][ao/pulse]  - #tbc
+[   4.091][v][ao/pulse]  - #tbr
+[   4.091][v][ao/pulse] result: stereo
+[   4.101][v][ao/pulse] device buffer: 4800 samples.
+[   4.101][v][ao/pulse] using soft-buffer of 9600 samples.
+[   4.101][i][cplayer] AO: [pulse] 48000Hz stereo 2ch float
+[   4.101][v][cplayer] AO: Description: PulseAudio audio output
+[   4.101][v][autoconvert] inserting resampler
+[   4.101][v][swresample] format change, reinitializing resampler
+[   4.101][v][swresample] 48000Hz stereo floatp -> 48000Hz stereo float
+[   4.101][v][af] [out] 48000Hz stereo 2ch float
+[   4.101][i][cplayer] VO: [gpu] 1080x1080 vaapi[nv12]
+[   4.101][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   4.101][v][vo/gpu] reconfig to 1080x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   4.101][v][vo/gpu/wayland] Reconfiguring!
+[   4.101][d][vo/gpu] max content size: 1920x1080
+[   4.101][d][vo/gpu] monitor size: 1920x1080
+[   4.101][v][vo/gpu/wayland] Enabling server decorations
+[   4.101][v][vo/gpu] Resize: 1080x1080
+[   4.101][v][vo/gpu] Window size: 1080x1080 (Borders: l=0 t=0 r=0 b=0)
+[   4.101][v][vo/gpu] Video source: 1080x1080 (1:1)
+[   4.101][v][vo/gpu] Video display: (0, 0) 1080x1080 -> (0, 0) 1080x1080
+[   4.101][v][vo/gpu] Video scale: 1.000000/1.000000
+[   4.101][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   4.101][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   4.101][v][vo/gpu] Testing FBO format rgba16f
+[   4.101][d][vo/gpu] Resizing texture: 16x16
+[   4.101][v][vo/gpu] Using FBO format rgba16f.
+[   4.101][v][vo/gpu] No advanced processing required. Enabling dumb mode.
+[   4.101][v][vo/gpu/wayland] Handling resize on the vk side
+[   4.102][d][vo/gpu/vulkan] Requested alpha compositing mode: VK_COMPOSITE_ALPHA_PRE_MULTIPLIED_BIT_KHR
+[   4.102][d][vo/gpu/vulkan] Requested surface transform: VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+[   4.102][d][vo/gpu/vulkan] Requested image count: 4 (min 4 max 0)
+[   4.102][d][vo/gpu/vulkan] Requested image size: 1080x1080 (min 1x1 < cur -1x-1 < max 16384x16384)
+[   4.102][d][vo/gpu/vulkan] (Re)creating swapchain of size 1080x1080
+[   4.102][v][vo/gpu] Resize: 1080x1080
+[   4.102][v][vo/gpu] Window size: 1080x1080 (Borders: l=0 t=0 r=0 b=0)
+[   4.102][v][vo/gpu] Video source: 1080x1080 (1:1)
+[   4.102][v][vo/gpu] Video display: (0, 0) 1080x1080 -> (0, 0) 1080x1080
+[   4.102][v][vo/gpu] Video scale: 1.000000/1.000000
+[   4.102][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   4.102][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   4.102][d][vo/gpu/vulkan] Allocating 262144 memory of type 0x7 (id 3) in heap 1
+[   4.102][d][vo/gpu/vulkan] vertex shader source:
+[   4.102][d][vo/gpu/vulkan] [  1] #version 450
+[   4.102][d][vo/gpu/vulkan] [  2] #define tex1D texture
+[   4.102][d][vo/gpu/vulkan] [  3] #define tex3D texture
+[   4.102][d][vo/gpu/vulkan] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   4.102][d][vo/gpu/vulkan] [  5] layout(location=0) in vec2 vertex_position;
+[   4.102][d][vo/gpu/vulkan] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   4.102][d][vo/gpu/vulkan] [  7] layout(location=1) out vec2 texcoord0;
+[   4.102][d][vo/gpu/vulkan] [  8] layout(location=2) in vec2 vertex_texcoord1;
+[   4.102][d][vo/gpu/vulkan] [  9] layout(location=2) out vec2 texcoord1;
+[   4.102][d][vo/gpu/vulkan] [ 10] void main() {
+[   4.102][d][vo/gpu/vulkan] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   4.102][d][vo/gpu/vulkan] [ 12] texcoord0 = vertex_texcoord0;
+[   4.102][d][vo/gpu/vulkan] [ 13] texcoord1 = vertex_texcoord1;
+[   4.102][d][vo/gpu/vulkan] [ 14] }
+[   4.102][d][vo/gpu/vulkan] fragment shader source:
+[   4.102][d][vo/gpu/vulkan] [  1] #version 450
+[   4.102][d][vo/gpu/vulkan] [  2] #define tex1D texture
+[   4.102][d][vo/gpu/vulkan] [  3] #define tex3D texture
+[   4.102][d][vo/gpu/vulkan] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   4.102][d][vo/gpu/vulkan] [  5] layout(location=0) out vec4 out_color;
+[   4.102][d][vo/gpu/vulkan] [  6] layout(location=1) in vec2 texcoord0;
+[   4.102][d][vo/gpu/vulkan] [  7] layout(location=2) in vec2 texcoord1;
+[   4.102][d][vo/gpu/vulkan] [  8] layout(std140, binding=2) uniform UBO {
+[   4.102][d][vo/gpu/vulkan] [  9] layout(offset=0) mat3 colormatrix;
+[   4.102][d][vo/gpu/vulkan] [ 10] layout(offset=48) mat2 texture_rot0;
+[   4.102][d][vo/gpu/vulkan] [ 11] layout(offset=80) mat2 texture_rot1;
+[   4.102][d][vo/gpu/vulkan] [ 12] };
+[   4.102][d][vo/gpu/vulkan] [ 13] layout(std430, push_constant) uniform PushC {
+[   4.102][d][vo/gpu/vulkan] [ 14] layout(offset=0) vec3 colormatrix_c;
+[   4.102][d][vo/gpu/vulkan] [ 15] layout(offset=16) vec3 src_luma;
+[   4.102][d][vo/gpu/vulkan] [ 16] layout(offset=32) vec3 dst_luma;
+[   4.102][d][vo/gpu/vulkan] [ 17] layout(offset=48) vec2 texture_size0;
+[   4.102][d][vo/gpu/vulkan] [ 18] layout(offset=56) vec2 texture_off0;
+[   4.102][d][vo/gpu/vulkan] [ 19] layout(offset=64) vec2 pixel_size0;
+[   4.102][d][vo/gpu/vulkan] [ 20] layout(offset=72) vec2 texture_size1;
+[   4.102][d][vo/gpu/vulkan] [ 21] layout(offset=80) vec2 texture_off1;
+[   4.102][d][vo/gpu/vulkan] [ 22] layout(offset=88) vec2 pixel_size1;
+[   4.102][d][vo/gpu/vulkan] [ 23] };
+[   4.102][d][vo/gpu/vulkan] [ 24] layout(binding=0) uniform sampler2D texture0;
+[   4.102][d][vo/gpu/vulkan] [ 25] layout(binding=1) uniform sampler2D texture1;
+[   4.102][d][vo/gpu/vulkan] [ 26] void main() {
+[   4.102][d][vo/gpu/vulkan] [ 27] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   4.102][d][vo/gpu/vulkan] [ 28] color.r = 1.000000 * vec4(texture(texture0, texcoord0)).r;
+[   4.102][d][vo/gpu/vulkan] [ 29] color.gb = 1.000000 * vec4(texture(texture1, texcoord1)).rg;
+[   4.102][d][vo/gpu/vulkan] [ 30] color = color.rgbr;
+[   4.102][d][vo/gpu/vulkan] [ 31] color.rgb = mat3(colormatrix) * color.rgb + colormatrix_c;
+[   4.102][d][vo/gpu/vulkan] [ 32] color.a = 1.0;
+[   4.102][d][vo/gpu/vulkan] [ 33] // color mapping
+[   4.102][d][vo/gpu/vulkan] [ 34] color.rgb *= vec3(1.000000);
+[   4.102][d][vo/gpu/vulkan] [ 35] color.rgb *= vec3(1.000000);
+[   4.102][d][vo/gpu/vulkan] [ 36] out_color = color;
+[   4.102][d][vo/gpu/vulkan] [ 37] }
+[   4.145][d][vo/gpu/vulkan] shaderc compile status 'success' (0 errors, 0 warnings)
+[   4.145][v][vo/gpu/vulkan] Spent 42.317 ms translating SPIR-V
+[   4.146][d][vo/gpu/vulkan] shaderc compile status 'success' (0 errors, 0 warnings)
+[   4.146][d][vo/gpu/vulkan] Spent 1.574 ms translating SPIR-V
+[   4.146][d][vo/gpu/vulkan] Spent 0.015 ms compiling shader
+[   4.146][d][vo/gpu/vulkan] Spent 0.063 ms creating pipeline
+[   4.146][d][vo/gpu/vulkan] Pass statistics: size 5192, SPIR-V: vert 832 frag 1812 comp 0
+[   4.146][d][vo/gpu/vulkan] Allocating 262144 memory of type 0x7 (id 3) in heap 1
+[   4.148][v][vo/gpu/wayland] Given DND offer with mime type text/plain;charset=utf-8
+[   4.148][v][vo/gpu/wayland] Resizing due to xdg from 1080x1080 to 878x1461
+[   4.148][v][cplayer] first video frame after restart shown
+[   4.148][v][vo/gpu] Resize: 1080x1080
+[   4.148][v][vo/gpu] Window size: 1080x1080 (Borders: l=0 t=0 r=0 b=0)
+[   4.148][v][vo/gpu] Video source: 1080x1080 (1:1)
+[   4.148][v][vo/gpu] Video display: (0, 0) 1080x1080 -> (0, 0) 1080x1080
+[   4.148][v][vo/gpu] Video scale: 1.000000/1.000000
+[   4.148][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   4.148][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   4.148][v][vo/gpu/wayland] Handling resize on the vk side
+[   4.148][d][vo/gpu/vulkan] Requested alpha compositing mode: VK_COMPOSITE_ALPHA_PRE_MULTIPLIED_BIT_KHR
+[   4.148][d][vo/gpu/vulkan] Requested surface transform: VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+[   4.148][d][vo/gpu/vulkan] Requested image count: 4 (min 4 max 0)
+[   4.148][d][vo/gpu/vulkan] Requested image size: 878x1461 (min 1x1 < cur -1x-1 < max 16384x16384)
+[   4.148][d][vo/gpu/vulkan] (Re)creating swapchain of size 878x1461
+[   4.148][v][vo/gpu] Resize: 878x1461
+[   4.148][v][vo/gpu] Window size: 878x1461 (Borders: l=0 t=0 r=0 b=0)
+[   4.148][v][vo/gpu] Video source: 1080x1080 (1:1)
+[   4.148][v][vo/gpu] Video display: (0, 0) 1080x1080 -> (0, 291) 878x878
+[   4.148][v][vo/gpu] Video scale: 0.812963/0.812963
+[   4.148][v][vo/gpu] OSD borders: l=0 t=291 r=0 b=292
+[   4.148][v][vo/gpu] Video borders: l=0 t=291 r=0 b=292
+[   4.166][v][cplayer] audio ready
+[   4.166][d][cplayer] starting video playback
+[   4.166][v][cplayer] delaying audio start 0.001000 vs. 0.000000, diff=0.001000
+[   4.166][v][cplayer] playback restart complete @ 0.000000, audio=ready, video=playing
+[   4.166][v][vo/gpu/wayland] Enabling idle inhibitor
+[   4.167][v][cplayer] starting audio playback
+[   4.167][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   4.167][v][cplayer] Set property: shared-script-properties -> 1
+[   4.167][v][ao/pulse] starting AO
+[   4.167][d][osc] osc_init 
+[   4.168][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   4.168][v][cplayer] Set property: shared-script-properties -> 1
+[   4.237][d][vo/gpu] max content size: 3840x2160
+[   4.237][d][vo/gpu] monitor size: 3840x2160
+[   4.237][v][vo/gpu/wayland] Surface entered output Unknown Gigabyte M32U (0x29), scale = 2
+[   4.237][v][vo/gpu/wayland] Handling resize on the vk side
+[   4.237][d][vo/gpu/vulkan] Requested alpha compositing mode: VK_COMPOSITE_ALPHA_PRE_MULTIPLIED_BIT_KHR
+[   4.237][d][vo/gpu/vulkan] Requested surface transform: VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+[   4.237][d][vo/gpu/vulkan] Requested image count: 4 (min 4 max 0)
+[   4.237][d][vo/gpu/vulkan] Requested image size: 1756x2922 (min 1x1 < cur -1x-1 < max 16384x16384)
+[   4.237][d][vo/gpu/vulkan] (Re)creating swapchain of size 1756x2922
+[   4.237][v][vo/gpu] Resize: 1756x2922
+[   4.237][v][vo/gpu] Window size: 1756x2922 (Borders: l=0 t=0 r=0 b=0)
+[   4.237][v][vo/gpu] Video source: 1080x1080 (1:1)
+[   4.237][v][vo/gpu] Video display: (0, 0) 1080x1080 -> (0, 583) 1756x1756
+[   4.237][v][vo/gpu] Video scale: 1.625926/1.625926
+[   4.237][v][vo/gpu] OSD borders: l=0 t=583 r=0 b=583
+[   4.237][v][vo/gpu] Video borders: l=0 t=583 r=0 b=583
+[   4.237][v][vo/gpu] Assuming 143.999000 FPS for display sync.
+[   4.246][d][osc] osc_init 
+[   4.246][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   4.246][v][cplayer] Set property: shared-script-properties -> 1
+[   4.363][d][sponsorblock] Got:  
+[   4.406][d][vo/gpu/vulkan] Garbage collected slab of size  256K from pool 0
+[   4.406][d][vo/gpu/vulkan] Freeing slab of size  256K
+[   4.766][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   4.766][v][cplayer] Set property: shared-script-properties -> 1
+[   4.766][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   4.807][v][osd/libass] fontselect: (sans-serif, 400, 0) -> /usr/share/fonts/gsfonts/NimbusSans-Regular.otf, 0, NimbusSans-Regular
+[   4.807][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[   4.808][v][vo/gpu] Reallocating OSD texture to 2048x512.
+[   4.808][d][vo/gpu/vulkan] Allocating 4194304 memory of type 0x1 (id 0) in heap 1
+[   4.808][d][vo/gpu/vulkan] Allocating 2359296 memory of type 0x6 (id 2) in heap 0
+[   4.808][d][vo/gpu/vulkan] vertex shader source:
+[   4.808][d][vo/gpu/vulkan] [  1] #version 450
+[   4.808][d][vo/gpu/vulkan] [  2] #define tex1D texture
+[   4.808][d][vo/gpu/vulkan] [  3] #define tex3D texture
+[   4.808][d][vo/gpu/vulkan] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   4.808][d][vo/gpu/vulkan] [  5] layout(location=0) in vec2 vertex_position;
+[   4.808][d][vo/gpu/vulkan] [  6] layout(location=1) in vec2 vertex_texcoord;
+[   4.808][d][vo/gpu/vulkan] [  7] layout(location=1) out vec2 texcoord;
+[   4.808][d][vo/gpu/vulkan] [  8] layout(location=2) in vec4 vertex_ass_color;
+[   4.808][d][vo/gpu/vulkan] [  9] layout(location=2) out vec4 ass_color;
+[   4.808][d][vo/gpu/vulkan] [ 10] void main() {
+[   4.808][d][vo/gpu/vulkan] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   4.808][d][vo/gpu/vulkan] [ 12] texcoord = vertex_texcoord;
+[   4.808][d][vo/gpu/vulkan] [ 13] ass_color = vertex_ass_color;
+[   4.808][d][vo/gpu/vulkan] [ 14] }
+[   4.808][d][vo/gpu/vulkan] fragment shader source:
+[   4.808][d][vo/gpu/vulkan] [  1] #version 450
+[   4.808][d][vo/gpu/vulkan] [  2] #define tex1D texture
+[   4.808][d][vo/gpu/vulkan] [  3] #define tex3D texture
+[   4.808][d][vo/gpu/vulkan] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   4.808][d][vo/gpu/vulkan] [  5] layout(location=0) out vec4 out_color;
+[   4.808][d][vo/gpu/vulkan] [  6] layout(location=1) in vec2 texcoord;
+[   4.808][d][vo/gpu/vulkan] [  7] layout(location=2) in vec4 ass_color;
+[   4.808][d][vo/gpu/vulkan] [  8] layout(std430, push_constant) uniform PushC {
+[   4.808][d][vo/gpu/vulkan] [  9] layout(offset=0) vec3 src_luma;
+[   4.808][d][vo/gpu/vulkan] [ 10] layout(offset=16) vec3 dst_luma;
+[   4.808][d][vo/gpu/vulkan] [ 11] };
+[   4.808][d][vo/gpu/vulkan] [ 12] layout(binding=0) uniform sampler2D osdtex;
+[   4.808][d][vo/gpu/vulkan] [ 13] void main() {
+[   4.808][d][vo/gpu/vulkan] [ 14] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   4.808][d][vo/gpu/vulkan] [ 15] color = vec4(ass_color.rgb, ass_color.a * texture(osdtex, texcoord).r);
+[   4.808][d][vo/gpu/vulkan] [ 16] // color mapping
+[   4.808][d][vo/gpu/vulkan] [ 17] color.rgb *= vec3(1.000000);
+[   4.808][d][vo/gpu/vulkan] [ 18] color.rgb *= vec3(1.000000);
+[   4.808][d][vo/gpu/vulkan] [ 19] out_color = color;
+[   4.808][d][vo/gpu/vulkan] [ 20] }
+[   4.809][d][vo/gpu/vulkan] shaderc compile status 'success' (0 errors, 0 warnings)
+[   4.809][d][vo/gpu/vulkan] Spent 1.035 ms translating SPIR-V
+[   4.810][d][vo/gpu/vulkan] shaderc compile status 'success' (0 errors, 0 warnings)
+[   4.810][d][vo/gpu/vulkan] Spent 1.095 ms translating SPIR-V
+[   4.810][d][vo/gpu/vulkan] Spent 0.007 ms compiling shader
+[   4.810][d][vo/gpu/vulkan] Spent 0.051 ms creating pipeline
+[   4.810][d][vo/gpu/vulkan] Pass statistics: size 5064, SPIR-V: vert 848 frag 828 comp 0
+[   4.929][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[   5.142][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   5.142][v][cplayer] Set property: shared-script-properties -> 1
+[   5.142][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   5.497][d][vo/gpu/vulkan] Garbage collected slab of size 2304K from pool 3
+[   5.497][d][vo/gpu/vulkan] Freeing slab of size 2304K
+[   6.438][d][timeline] stream 0: resize index to 128
+[  18.655][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[  18.695][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[  18.695][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  18.695][v][cplayer] Set property: shared-script-properties -> 1
+[  18.695][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  18.735][d][vo/gpu/vulkan] Allocating 2359296 memory of type 0x6 (id 2) in heap 0
+[  18.907][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  18.907][v][cplayer] Set property: shared-script-properties -> 1
+[  18.907][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  19.253][d][vo/gpu/vulkan] Garbage collected slab of size 2304K from pool 3
+[  19.253][d][vo/gpu/vulkan] Freeing slab of size 2304K
+[  36.932][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[  48.696][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  48.696][v][cplayer] Set property: shared-script-properties -> 1
+[  48.696][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  48.736][d][vo/gpu/vulkan] Allocating 2359296 memory of type 0x6 (id 2) in heap 0
+[  49.011][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[  49.051][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[  49.223][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  49.224][v][cplayer] Set property: shared-script-properties -> 1
+[  49.224][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  49.571][d][vo/gpu/vulkan] Garbage collected slab of size 2304K from pool 3
+[  49.571][d][vo/gpu/vulkan] Freeing slab of size 2304K
+[  67.633][d][timeline] stream 1: resize index to 256
+[  93.149][e][ffmpeg] tls: Error in the pull function.
+[  93.149][e][ffmpeg] tls: IO error: Connection reset by peer
+[  93.149][w][ffmpeg] https: Will reconnect at 2818032 in 0 second(s), error=Connection reset by peer.
+[  93.149][d][ffmpeg] tcp: Starting connection attempt to 2a00:23a0:1a2:1::e port 443
+[  93.157][d][ffmpeg] tcp: Successfully connected to 2a00:23a0:1a2:1::e port 443
+[ 131.443][d][timeline] stream 1: resize index to 512
+[ 135.967][v][mkv] EOF reached.
+[ 135.967][v][mkv] EOF reached.
+[ 135.967][v][timeline] EOF reached.
+[ 141.491][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 141.491][v][cplayer] Set property: shared-script-properties -> 1
+[ 141.491][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 141.531][d][vo/gpu/vulkan] Allocating 2621952 memory of type 0x6 (id 2) in heap 0
+[ 141.731][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 141.944][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 141.944][v][cplayer] Set property: shared-script-properties -> 1
+[ 141.944][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 142.295][d][vo/gpu/vulkan] Garbage collected slab of size 2560K from pool 3
+[ 142.295][d][vo/gpu/vulkan] Freeing slab of size 2560K
+[ 144.691][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 144.691][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 144.691][v][cplayer] Set property: shared-script-properties -> 1
+[ 144.691][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 144.731][d][vo/gpu/vulkan] Allocating 2621952 memory of type 0x6 (id 2) in heap 0
+[ 144.903][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 144.903][v][cplayer] Set property: shared-script-properties -> 1
+[ 144.903][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 145.251][d][vo/gpu/vulkan] Garbage collected slab of size 2560K from pool 3
+[ 145.251][d][vo/gpu/vulkan] Freeing slab of size 2560K
+[ 166.091][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 166.091][v][cplayer] Set property: shared-script-properties -> 1
+[ 166.119][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 166.131][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 166.131][d][vo/gpu/vulkan] Allocating 2621952 memory of type 0x6 (id 2) in heap 0
+[ 166.362][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 166.362][v][cplayer] Set property: shared-script-properties -> 1
+[ 166.362][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 166.691][d][vo/gpu/vulkan] Garbage collected slab of size 2560K from pool 3
+[ 166.691][d][vo/gpu/vulkan] Freeing slab of size 2560K
+[ 179.651][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 179.651][v][cplayer] Set property: shared-script-properties -> 1
+[ 179.651][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 179.691][d][vo/gpu/vulkan] Allocating 2621952 memory of type 0x6 (id 2) in heap 0
+[ 179.730][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 179.963][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 179.963][v][cplayer] Set property: shared-script-properties -> 1
+[ 179.963][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 180.291][d][vo/gpu/vulkan] Garbage collected slab of size 2560K from pool 3
+[ 180.291][d][vo/gpu/vulkan] Freeing slab of size 2560K
+[ 192.455][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[ 192.455][v][cplayer] Set property: shared-script-properties -> 1
+[ 192.455][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 192.495][d][vo/gpu/vulkan] Allocating 2621952 memory of type 0x6 (id 2) in heap 0
+[ 193.370][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 193.410][d][cplayer] Run command: quit, flags=73, args=[code="0"]
+[ 193.410][v][cplayer] EOF code: 5  
+[ 193.410][d][ad] Uninit decoder.
+[ 193.411][d][vd] Uninit decoder.
+[ 193.411][d][cplayer] Terminating demuxers...
+[ 193.411][d][ffmpeg] AVIOContext: Statistics: 17801217 bytes read, 0 seeks
+[ 193.411][d][ffmpeg] AVIOContext: Statistics: 4153412 bytes read, 0 seeks
+[ 193.422][d][cplayer] Done terminating demuxers.
+[ 193.422][v][cplayer] finished playback, success (reason 3)
+[ 193.422][i][cplayer] 
+[ 193.422][i][cplayer] Exiting... (Quit)
+[ 193.422][d][sponsorblock] Exiting...
+[ 193.422][d][console] Exiting...
+[ 193.422][d][sponsorblock_shared] Exiting...
+[ 193.422][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="remove", value="osc-margins"]
+[ 193.422][v][cplayer] Set property: shared-script-properties -> 1
+[ 193.422][d][playlistmanager] Exiting...
+[ 193.422][d][ytdl_hook] Exiting...
+[ 193.422][d][stats] Exiting...
+[ 193.423][d][osc] Exiting...
+[ 193.450][v][vo/gpu/wayland] Disabling the idle inhibitor
+[ 193.452][d][vo/gpu] flushing shader cache
+[ 193.453][d][vo/gpu/vulkan] Freeing slab of size 4096K
+[ 193.453][d][vo/gpu/vulkan] Freeing slab of size  256K
+[ 193.453][d][vo/gpu/vulkan] Freeing slab of size  256K
+[ 193.453][d][vo/gpu/vulkan] Freeing slab of size 2560K
+[ 193.453][d][vo/gpu/vulkan] Waiting for remaining commands...
+[ 193.455][v][vo/gpu/wayland] Deregistering output Sony SONY TV (0x2c)
+[ 193.455][v][vo/gpu/wayland] Deregistering output Dell Inc. DELL U2412M (0x2b)
+[ 193.455][v][vo/gpu/wayland] Deregistering output ViewSonic Corporation XG270QG (0x2a)
+[ 193.455][v][vo/gpu/wayland] Deregistering output Unknown Gigabyte M32U (0x29)

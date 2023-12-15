@@ -1,0 +1,13 @@
+[package]
+name = "debug-lines-ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.57"
+bevy = "0.7"
+
+bevy_prototype_debug_lines = { version = "0.7.1", default_features = false, features = ["3d"] }
+
+result-system = { path = "../result-system" }
+transform-ex = { path = "../transform-ex" }

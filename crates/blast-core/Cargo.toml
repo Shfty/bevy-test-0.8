@@ -1,0 +1,33 @@
+[package]
+name = "blast-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.57"
+bevy_mod_debugdump = "0.4.0"
+bitmask = "0.5.0"
+
+clap = { version = "3.1.18", features = ["derive"] }
+glam = { version = "0.20.5", features = ["glam-assert"] }
+bevy_rapier3d = "0.14.1"
+bevy_prototype_debug_lines = { version = "0.7.1", features = ["3d"] }
+bevy = { version = "0.7", default_features = false, features = [
+    "bevy_gilrs",
+    "bevy_winit",
+    "render",
+    "png",
+    "x11",
+    "wayland",
+    # Remove for release builds
+    "dynamic",
+]}
+
+transform-ex = { path = "../transform-ex" }
+result-system = { path = "../result-system" }
+flycam = { path = "../flycam" }
+rapier-ex = { path = "../rapier-ex" }
+ecs-ex = { path = "../ecs-ex" }
+world-ex = { path = "../world-ex" }
+input-ex = { path = "../input-ex" }
+forces = { path = "../forces" }

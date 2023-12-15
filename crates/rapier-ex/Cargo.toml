@@ -1,0 +1,16 @@
+[package]
+name = "rapier-ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.57"
+bevy = "0.7"
+bevy_rapier3d = "0.14.1"
+bevy_prototype_debug_lines = { version = "0.7.1", features = ["3d"] }
+
+transform-ex = { path = "../transform-ex" }
+result-system = { path = "../result-system" }
+struct-derive = { path = "../struct-derive" }
+debug-lines-ex = { path = "../debug-lines-ex" }
+world-ex = { path = "../world-ex" }

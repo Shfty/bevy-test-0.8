@@ -1,0 +1,12 @@
+[package]
+name = "bevy_fnord"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.7" }
+serde = { version = "1.0.138", features = ["derive"] }
+
+bevy_fnord_macro = { path = "../bevy_fnord_macro" }
+strude = { path = "../strude" }
+ecs-ex = { path = "../ecs-ex" }
